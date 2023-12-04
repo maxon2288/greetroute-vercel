@@ -49,7 +49,7 @@ mail.setApiKey(process.env.NEXT_PUBLIC_MAIL_SENDGRID_PASS)
 
 export default async (req, res) => {
 	console.log(req.body)
-	const body = req.body
+	const body = JSON.parse(req.body)
 	const message = `
 	<table width="100%" cellpadding="0" cellspacing="0">
         <tr>
@@ -59,11 +59,31 @@ export default async (req, res) => {
                         <td>
                             <h1>Новая заявка с сайта GreetRoute</h1>
                             <table style="max-width: 600px; width: 100%">
-                            <tr>
-                                    <td style="border-bottom: 1px solid #cccccc; padding: 16px 0;">
-                                        ${req.body}
-                                    </td>
-                                </tr>
+                                <tr>
+									<td style="border-bottom: 1px solid #cccccc; padding: 16px 0;">
+										Имя
+								
+									</td>
+									<td style="border-bottom: 1px solid #cccccc; padding: 16px 0;">
+										${body.name}
+									</td>
+								</tr>
+								<tr>
+									<td style="border-bottom: 1px solid #cccccc; padding: 16px 0;">
+										Почта/телефон
+									</td>
+									<td style="border-bottom: 1px solid #cccccc; padding: 16px 0;">
+										${body.email}
+									</td>
+								</tr>
+								<tr>
+									<td style="border-bottom: 1px solid #cccccc; padding: 16px 0;">
+										Сообщение
+									</td>
+									<td style="border-bottom: 1px solid #cccccc; padding: 16px 0;">
+										${body.message}
+									</td>
+								</tr>
                             </table>
                         </td>
                     </tr>
