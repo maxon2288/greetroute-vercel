@@ -53,7 +53,7 @@ export default function BottomOfPage() {
 			if (!field.name) return
 			formData[field.name] = field.value
 		})
-		fetch("api/mail", {
+		fetch("https://greetroute-vercel.vercel.app/api/mail", {
 			method: "POST",
 			body: JSON.stringify(formData)
 		})
@@ -62,17 +62,17 @@ export default function BottomOfPage() {
 
 	return (
 		<>
-			<div className='form' id='form'>
-				<div className='wrapper'>
+			<div className="form" id="form">
+				<div className="wrapper">
 					<div>
-						<div className='form-top'>
-							<h2 className='wow fadeInUp'>Начнем сотрудничать?</h2>
-							<p className='wow fadeInUp' data-wow-delay='0.2s'>
+						<div className="form-top">
+							<h2 className="wow fadeInUp">Начнем сотрудничать?</h2>
+							<p className="wow fadeInUp" data-wow-delay="0.2s">
 								Заполните форму и наш специалист свяжется с вами <span>в ближайшее время</span>
 							</p>
 						</div>
-						<div className='form-content'>
-							<div className='form-left'>
+						<div className="form-content">
+							<div className="form-left">
 								{/*<form onSubmit={onSend} className={`${showOk ? "hide" : ""}`}>*/}
 								{/*	<div className='form-item required  wow fadeInUp' data-wow-delay='0.3s'>*/}
 								{/*		<div className='form-title'>Как к вам обращаться?</div>*/}
@@ -93,50 +93,59 @@ export default function BottomOfPage() {
 								{/*		Отправляя эту форму, я подтверждаю, что принимаю <Link href='/privacy-policy'>политику конфиденциальности GreetRoute</Link> и согласен на <a href='/consent'>обработку персональных данных</a>.*/}
 								{/*	</p>*/}
 								{/*</form>*/}
-								<form method='post' onSubmit={handleOnSubmit} className={`${showOk ? "hide" : ""}`}>
-									<div className='form-item required  wow fadeInUp' data-wow-delay='0.3s'>
-										<div className='form-title'>Как к вам обращаться?</div>
-										<input minLength={4} type='text' name='name' required />
+								<form method="post" onSubmit={handleOnSubmit} className={`${showOk ? "hide" : ""}`}>
+									<div className="form-item required  wow fadeInUp" data-wow-delay="0.3s">
+										<div className="form-title">Как к вам обращаться?</div>
+										<input minLength={4} type="text" name="name" required />
 									</div>
-									<div className='form-item required wow fadeInUp' data-wow-delay='0.4s'>
-										<div className='form-title'>Ссылка на соц сеть, телефон мессенджера либо E-mail</div>
-										<input minLength={5} type='text' name='email' required />
+									<div className="form-item required wow fadeInUp" data-wow-delay="0.4s">
+										<div className="form-title">Ссылка на соц сеть, телефон мессенджера либо
+											E-mail
+										</div>
+										<input minLength={5} type="text" name="email" required />
 									</div>
-									<div className='form-item wow fadeInUp' data-wow-delay='0.5s'>
-										<div className='form-title'>Сообщение для нас</div>
-										<input type='text' name='message' />
+									<div className="form-item wow fadeInUp" data-wow-delay="0.5s">
+										<div className="form-title">Сообщение для нас</div>
+										<input type="text" name="message" />
 									</div>
-									<div className='form-item wow fadeInUp' data-wow-delay='0.6s'>
+									<div className="form-item wow fadeInUp" data-wow-delay="0.6s">
 										<button>Отправить</button>
 									</div>
-									<p className='wow fadeInUp' data-wow-delay='0.7s'>
-										Отправляя эту форму, я подтверждаю, что принимаю <Link href='/privacy-policy'>политику конфиденциальности GreetRoute</Link> и согласен на <a href='/consent'>обработку персональных данных</a>.
+									<p className="wow fadeInUp" data-wow-delay="0.7s">
+										Отправляя эту форму, я подтверждаю, что принимаю <Link href="/privacy-policy">политику
+										конфиденциальности GreetRoute</Link> и согласен на <a href="/consent">обработку
+										персональных данных</a>.
 									</p>
 								</form>
 								<div className={`form-ok ${showOk ? "active" : ""}`}>
 									<div>
-										<img src='/img/content/ok.svg' alt='' />
+										<img src="/img/content/ok.svg" alt="" />
 									</div>
 									<h3>Ваша форма отправлена!</h3>
-									<p>Спасибо за то, что оставили заявку! Наш специалист скоро с вами свяжется по указанному вами способу связи.</p>
+									<p>Спасибо за то, что оставили заявку! Наш специалист скоро с вами свяжется по
+										указанному вами способу связи.</p>
 								</div>
 							</div>
-							<div className='form-right'>
-								<div className='soc'>
-									<a href='https://wa.me/+77776740559' className=' wow fadeInUp' target='_blank' data-wow-delay='0.3s'>
-										<Image width='32' height='32' src='/img/svg/soc-1.svg' alt='' />
+							<div className="form-right">
+								<div className="soc">
+									<a href="https://wa.me/+77776740559" className=" wow fadeInUp" target="_blank"
+									   data-wow-delay="0.3s">
+										<Image width="32" height="32" src="/img/svg/soc-1.svg" alt="" />
 										<span>Наш WhatsApp</span>
 									</a>
-									<a href='https://t.me/greetroute' className='wow fadeInUp' target='_blank' data-wow-delay='0.4s'>
-										<Image width='32' height='32' src='/img/svg/soc-2.svg' alt='' />
+									<a href="https://t.me/greetroute" className="wow fadeInUp" target="_blank"
+									   data-wow-delay="0.4s">
+										<Image width="32" height="32" src="/img/svg/soc-2.svg" alt="" />
 										<span>Наш Telegram</span>
 									</a>
-									<a href='https://instagram.com/greetroute' className='wow fadeInUp' target='_blank' data-wow-delay='0.5s'>
-										<Image width='32' height='32' src='/img/svg/soc-3.svg' alt='' />
+									<a href="https://instagram.com/greetroute" className="wow fadeInUp" target="_blank"
+									   data-wow-delay="0.5s">
+										<Image width="32" height="32" src="/img/svg/soc-3.svg" alt="" />
 										<span>Наш Instagram</span>
 									</a>
-									<a href='mailto:greetroute@gmail.com' className='wow fadeInUp' target='_blank' data-wow-delay='0.6s'>
-										<Image width='32' height='32' src='/img/svg/soc-4.svg' alt='' />
+									<a href="mailto:greetroute@gmail.com" className="wow fadeInUp" target="_blank"
+									   data-wow-delay="0.6s">
+										<Image width="32" height="32" src="/img/svg/soc-4.svg" alt="" />
 										<span>greetroute@gmail.com</span>
 									</a>
 								</div>
