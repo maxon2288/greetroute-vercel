@@ -19,45 +19,71 @@
 // 	res.status(200).json({ status: 'ok' })
 // }
 
-const mail = require("@sendgrid/mail")
+const sgMail = require("@sendgrid/mail")
+sgMail.setApiKey(process.env.NEXT_PUBLIC_MAIL_SENDGRID_PASS)
 
 export default async (req, res) => {
-	mail.setApiKey(process.env.NEXT_PUBLIC_MAIL_SENDGRID_PASS)
-	console.log(req.body)
-	const body = req.body
-	const message = `
-	<table width='100%' cellpadding='0' cellspacing='0'>
-        <tr>
-            <td>
-                <table style='width: 100%'>
-                    <tr>
-                        <td>
-                            <h1>Новая заявка с сайта GreetRoute</h1>
-                            <table style='max-width: 600px; width: 100%'>
-                            <tr>
-                                    <td style='border-bottom: 1px solid #cccccc; padding: 16px 0;'>
-                                        ${req.body}
-                                    </td>
-                                </tr>
-                            </table>
-                        </td>
-                    </tr>
-                </table>
-            </td>
-        </tr>
-    </table>
-	`
-	const data = {
+	const body = JSON.parse(req.body)
+	const msg = {
 		to: "greetroute@gmail.com",
 		from: "greetroute@gmail.com",
-		subject: "New web form message!",
-		text: message,
-		html: message.replace(/\r\n/g, "<br />")
+		subject: "Sending with SendGrid is Fun",
+		text: "and easy to do anywhere, even with Node.js",
+		html: `${body.name}`
 	}
-	await mail.send(data).then(() => {
-		res.status(200).json({ status: "Ok" })
-	})
+	sgMail
+		.send(msg)
+		.then((response) => {
+			console.log(response)
+			console.log(response[0].statusCode)
+			console.log(response[0].headers)
+		})
+		.catch((error) => {
+			console.error(error)
+		})
 }
+
+
+// const mail = require("@sendgrid/mail")
+// mail.setApiKey(process.env.NEXT_PUBLIC_MAIL_SENDGRID_PASS)
+//
+// export default async (req, res) => {
+// 	console.log(req.body)
+// 	const body = req.body
+// 	const message = `
+// 	<table width="100%" cellpadding="0" cellspacing="0">
+//         <tr>
+//             <td>
+//                 <table style="width: 100%">
+//                     <tr>
+//                         <td>
+//                             <h1>Новая заявка с сайта GreetRoute</h1>
+//                             <table style="max-width: 600px; width: 100%">
+//                             <tr>
+//                                     <td style="border-bottom: 1px solid #cccccc; padding: 16px 0;">
+//                                         ${req.body}
+//                                     </td>
+//                                 </tr>
+//                             </table>
+//                         </td>
+//                     </tr>
+//                 </table>
+//             </td>
+//         </tr>
+//     </table>
+// 	`
+// 	const data = {
+// 		to: "greetroute@gmail.com",
+// 		from: "greetroute@gmail.com",
+// 		subject: "New web form message!",
+// 		text: message,
+// 		html: message.replace(/\r\n/g, "<br />")
+// 	}
+// 	await mail.send(data).then(() => {
+// 		res.status(200).json({ status: "Ok" })
+// 	})
+// }
+
 
 // <tr>
 //     <td style='border-bottom: 1px solid #cccccc; padding: 16px 0;'>
