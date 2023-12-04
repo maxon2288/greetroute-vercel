@@ -5,60 +5,60 @@ import Footer from "@/app/components/ui/footer"
 import Image from "next/image"
 import { useState } from "react"
 
-const initValues = { name: "", email: "", message: "" }
-const initState = { values: initValues }
+// const initValues = { name: "", email: "", message: "" }
+// const initState = { values: initValues }
 
 export default function BottomOfPage() {
-	const [state, setState] = useState(initState)
+	// const [state, setState] = useState(initState)
 	const [showOk, setShowOk] = useState(false) // count - переменная состояния, setCount - функция для изменения этого состояния
 
-	const { values } = state
-
-	const handleChange = ({ target }) =>
-		setState((prev) => ({
-			...prev,
-			values: {
-				...prev.values,
-				[target.name]: target.value
-			}
-		}))
-
-	const sendContactForm = async (data) => {
-		document.querySelector(".form button").disabled = true
-		fetch("/api/mail", {
-			method: "POST",
-			body: JSON.stringify(data),
-			headers: {
-				"Content-Type": "application/json",
-				Accept: "application/json"
-			}
-		}).then((data) => {
-			if (data.ok) {
-				console.log(231332)
-				setShowOk(true)
-			}
-		})
-	}
-
-	const onSend = async (e) => {
-		e.preventDefault()
-		await sendContactForm(values)
-		await setShowOk(true)
-	}
-
-	// async function handleOnSubmit(e) {
-	// 	e.preventDefault()
-	// 	const formData = {}
-	// 	Array.from(e.currentTarget.elements).forEach((field) => {
-	// 		if (!field.name) return
-	// 		formData[field.name] = field.value
+	// const { values } = state
+	//
+	// const handleChange = ({ target }) =>
+	// 	setState((prev) => ({
+	// 		...prev,
+	// 		values: {
+	// 			...prev.values,
+	// 			[target.name]: target.value
+	// 		}
+	// 	}))
+	//
+	// const sendContactForm = async (data) => {
+	// 	document.querySelector(".form button").disabled = true
+	// 	fetch("/api/mail", {
+	// 		method: "POST",
+	// 		body: JSON.stringify(data),
+	// 		headers: {
+	// 			"Content-Type": "application/json",
+	// 			Accept: "application/json"
+	// 		}
+	// 	}).then((data) => {
+	// 		if (data.ok) {
+	// 			console.log(231332)
+	// 			setShowOk(true)
+	// 		}
 	// 	})
-	// 	fetch('api/mail', {
-	// 		method: 'post',
-	// 		body: JSON.stringify(formData)
-	// 	})
-	// 	console.log(formData)
 	// }
+	//
+	// const onSend = async (e) => {
+	// 	e.preventDefault()
+	// 	await sendContactForm(values)
+	// 	await setShowOk(true)
+	// }
+
+	async function handleOnSubmit(e) {
+		e.preventDefault()
+		const formData = {}
+		Array.from(e.currentTarget.elements).forEach((field) => {
+			if (!field.name) return
+			formData[field.name] = field.value
+		})
+		fetch("api/mail", {
+			method: "post",
+			body: JSON.stringify(formData)
+		})
+		console.log(formData)
+	}
 
 	return (
 		<>
@@ -73,38 +73,18 @@ export default function BottomOfPage() {
 						</div>
 						<div className='form-content'>
 							<div className='form-left'>
-								<form onSubmit={onSend} className={`${showOk ? "hide" : ""}`}>
-									<div className='form-item required  wow fadeInUp' data-wow-delay='0.3s'>
-										<div className='form-title'>Как к вам обращаться?</div>
-										<input value={values.name} onChange={handleChange} minLength={4} type='text' name='name' required />
-									</div>
-									<div className='form-item required wow fadeInUp' data-wow-delay='0.4s'>
-										<div className='form-title'>Ссылка на соц сеть, телефон мессенджера либо E-mail</div>
-										<input value={values.email} onChange={handleChange} minLength={5} type='text' name='email' required />
-									</div>
-									<div className='form-item wow fadeInUp' data-wow-delay='0.5s'>
-										<div className='form-title'>Сообщение для нас</div>
-										<input value={values.message} onChange={handleChange} type='text' name='message' />
-									</div>
-									<div className='form-item wow fadeInUp' data-wow-delay='0.6s'>
-										<button>Отправить</button>
-									</div>
-									<p className='wow fadeInUp' data-wow-delay='0.7s'>
-										Отправляя эту форму, я подтверждаю, что принимаю <Link href='/privacy-policy'>политику конфиденциальности GreetRoute</Link> и согласен на <a href='/consent'>обработку персональных данных</a>.
-									</p>
-								</form>
-								{/*<form method='post' onSubmit={handleOnSubmit} className={`${showOk ? 'hide' : ''}`}>*/}
+								{/*<form onSubmit={onSend} className={`${showOk ? "hide" : ""}`}>*/}
 								{/*	<div className='form-item required  wow fadeInUp' data-wow-delay='0.3s'>*/}
 								{/*		<div className='form-title'>Как к вам обращаться?</div>*/}
-								{/*		<input minLength={4} type='text' name='name' required />*/}
+								{/*		<input value={values.name} onChange={handleChange} minLength={4} type='text' name='name' required />*/}
 								{/*	</div>*/}
 								{/*	<div className='form-item required wow fadeInUp' data-wow-delay='0.4s'>*/}
 								{/*		<div className='form-title'>Ссылка на соц сеть, телефон мессенджера либо E-mail</div>*/}
-								{/*		<input minLength={5} type='text' name='email' required />*/}
+								{/*		<input value={values.email} onChange={handleChange} minLength={5} type='text' name='email' required />*/}
 								{/*	</div>*/}
 								{/*	<div className='form-item wow fadeInUp' data-wow-delay='0.5s'>*/}
 								{/*		<div className='form-title'>Сообщение для нас</div>*/}
-								{/*		<input type='text' name='message' />*/}
+								{/*		<input value={values.message} onChange={handleChange} type='text' name='message' />*/}
 								{/*	</div>*/}
 								{/*	<div className='form-item wow fadeInUp' data-wow-delay='0.6s'>*/}
 								{/*		<button>Отправить</button>*/}
@@ -113,6 +93,26 @@ export default function BottomOfPage() {
 								{/*		Отправляя эту форму, я подтверждаю, что принимаю <Link href='/privacy-policy'>политику конфиденциальности GreetRoute</Link> и согласен на <a href='/consent'>обработку персональных данных</a>.*/}
 								{/*	</p>*/}
 								{/*</form>*/}
+								<form method='post' onSubmit={handleOnSubmit} className={`${showOk ? "hide" : ""}`}>
+									<div className='form-item required  wow fadeInUp' data-wow-delay='0.3s'>
+										<div className='form-title'>Как к вам обращаться?</div>
+										<input minLength={4} type='text' name='name' required />
+									</div>
+									<div className='form-item required wow fadeInUp' data-wow-delay='0.4s'>
+										<div className='form-title'>Ссылка на соц сеть, телефон мессенджера либо E-mail</div>
+										<input minLength={5} type='text' name='email' required />
+									</div>
+									<div className='form-item wow fadeInUp' data-wow-delay='0.5s'>
+										<div className='form-title'>Сообщение для нас</div>
+										<input type='text' name='message' />
+									</div>
+									<div className='form-item wow fadeInUp' data-wow-delay='0.6s'>
+										<button>Отправить</button>
+									</div>
+									<p className='wow fadeInUp' data-wow-delay='0.7s'>
+										Отправляя эту форму, я подтверждаю, что принимаю <Link href='/privacy-policy'>политику конфиденциальности GreetRoute</Link> и согласен на <a href='/consent'>обработку персональных данных</a>.
+									</p>
+								</form>
 								<div className={`form-ok ${showOk ? "active" : ""}`}>
 									<div>
 										<img src='/img/content/ok.svg' alt='' />
