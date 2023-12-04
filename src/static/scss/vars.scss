@@ -1,0 +1,110 @@
+// Fonts
+$font-family-primary: "IBM Plex Sans", sans-serif;
+
+//Colors
+$clr-0: #000;
+$clr-5: #575757;
+$clr-8: #efefef;
+$clr-10: #fff;
+$clr-red: #E71825;
+
+//Shadow
+
+// Brand colors
+
+// Breakpoints
+$breakpoint-small-max: 640px !default;
+$breakpoint-medium-max: 1023px !default;
+$breakpoint-large-max: 1199px !default;
+$breakpoint-xlarge-max: 1600px !default;
+
+$breakpoint-small-min: 640px !default;
+$breakpoint-medium-min: 1024px !default;
+$breakpoint-large-min: 1200px !default;
+$breakpoint-xlarge-min: 1600px !default;
+
+:host, :root {
+    --geist-success-lighter: #d3e5ff;
+    --geist-success-light: #3291ff;
+    --geist-success: #0070f3;
+    --geist-success-dark: #0761d1;
+    --geist-error-lighter: #f7d4d6;
+    --geist-error-light: #ff1a1a;
+    --geist-error: #e00;
+    --geist-error-dark: #c50000;
+    --geist-warning-lighter: #ffefcf;
+    --geist-warning-light: #f7b955;
+    --geist-warning: #f5a623;
+    --geist-warning-dark: #ab570a;
+    --geist-violet-lighter: #d8ccf1;
+    --geist-violet-light: #8a63d2;
+    --geist-violet: #7928ca;
+    --geist-violet-dark: #4c2889;
+    --geist-violet-background: #fff;
+    --geist-violet-background-secondary: #291c3a;
+    --geist-violet-background-tertiary: #eae5f4;
+    --geist-background-rgb: 255, 255, 255;
+    --geist-foreground-rgb: 0, 0, 0;
+    --geist-console-header: #efe7ed;
+    --geist-console-purple: #7928ca;
+    --geist-console-text-color-default: var(--geist-foreground);
+    --geist-console-text-color-blue: #0070f3;
+    --geist-console-text-color-pink: #eb367f;
+    --geist-console-text-color-purple: #7928ca;
+    --geist-cyan-lighter: #aaffec;
+    --geist-cyan-light: #79ffe1;
+    --geist-cyan: #50e3c2;
+    --geist-cyan-dark: #29bc9b;
+    --geist-highlight-purple: #f81ce5;
+    --geist-highlight-magenta: #eb367f;
+    --geist-highlight-pink: #ff0080;
+    --geist-highlight-yellow: #fff500;
+    --geist-foreground: #000;
+    --geist-background: #fff;
+    --geist-selection: var(--ds-blue-800);
+    --geist-selection-text-color: #fff;
+    --accents-1: #fafafa;
+    --accents-2: #eaeaea;
+    --accents-3: #999;
+    --accents-4: #888;
+    --accents-5: #666;
+    --accents-6: #444;
+    --accents-7: #333;
+    --accents-8: #111;
+    --geist-link-color: var(--geist-success);
+    --geist-marketing-gray: #fafbfc;
+    --geist-code: var(--geist-foreground);
+    --geist-secondary-lighter: var(--accents-2);
+    --geist-secondary-light: var(--accents-3);
+    --geist-secondary: var(--accents-5);
+    --geist-secondary-dark: var(--accents-7);
+    --dropdown-box-shadow: 0 4px 4px 0 rgba(0, 0, 0, .02);
+    --dropdown-triangle-stroke: #fff;
+    --scroller-start: #fff;
+    --scroller-end: hsla(0, 0%, 100%, 0);
+    --shadow-smallest: 0px 2px 4px rgba(0, 0, 0, .1);
+    --shadow-extra-small: 0px 4px 8px rgba(0, 0, 0, .12);
+    --shadow-small: 0 5px 10px rgba(0, 0, 0, .12);
+    --shadow-medium: 0 8px 30px rgba(0, 0, 0, .12);
+    --shadow-large: 0 30px 60px rgba(0, 0, 0, .12);
+    --shadow-hover: 0 30px 60px rgba(0, 0, 0, .12);
+    --shadow-sticky: 0 12px 10px -10px rgba(0, 0, 0, .12);
+    --portal-opacity: 0.25;
+    --wv-green: #0cce6b;
+    --wv-orange: #ffa400;
+    --wv-red: #ff4e42;
+    --develop-start-gradient: #007cf0;
+    --develop-end-gradient: #00dfd8;
+    --develop-line-end: #019ae9;
+    --develop-text: #0a72ef;
+    --preview-start-gradient: #7928ca;
+    --preview-end-gradient: #ff0080;
+    --preview-line-end: #9a1fb8;
+    --preview-text: #de1d8d;
+    --ship-start-gradient: #ff4d4d;
+    --ship-end-gradient: #f9cb28;
+    --ship-line-end: #f9cb28;
+    --ship-text: #ff5b4f;
+    --next-icon-border: #000;
+    --contact-gradient-rotation: -1.2637294276190698rad;
+}
