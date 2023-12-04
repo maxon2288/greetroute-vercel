@@ -53,7 +53,7 @@ export default function BottomOfPage() {
 			if (!field.name) return
 			formData[field.name] = field.value
 		})
-		fetch("https://greetroute-vercel.vercel.app/api/mail", {
+		fetch("https://greetroute.kz/api/mail", {
 			method: "POST",
 			body: JSON.stringify(formData)
 		})
