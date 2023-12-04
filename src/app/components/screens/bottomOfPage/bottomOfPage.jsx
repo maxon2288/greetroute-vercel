@@ -54,7 +54,7 @@ export default function BottomOfPage() {
 			formData[field.name] = field.value
 		})
 		fetch("api/mail", {
-			method: "post",
+			method: "POST",
 			body: JSON.stringify(formData)
 		})
 		console.log(formData)
