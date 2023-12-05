@@ -445,6 +445,10 @@
                 span {
                     animation: opacity-buttons 6s infinite;
 
+                    &:nth-child(1) {
+                        -webkit-animation-delay: 0.1s;
+                    }
+
                     &:nth-child(2) {
                         -webkit-animation-delay: 1.5s;
                     }
