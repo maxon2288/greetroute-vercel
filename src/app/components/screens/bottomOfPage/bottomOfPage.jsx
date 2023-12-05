@@ -56,6 +56,11 @@ export default function BottomOfPage() {
 		fetch("api/mail", {
 			method: "POST",
 			body: JSON.stringify(formData)
+		}).then((data) => {
+			if (data.ok) {
+				console.log(231332)
+				setShowOk(true)
+			}
 		})
 		console.log(formData)
 	}
