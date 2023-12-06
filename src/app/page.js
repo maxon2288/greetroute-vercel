@@ -4,7 +4,7 @@ import Image from "next/image"
 import Header from "@/app/components/ui/header"
 import Link from "next/link"
 import BottomOfPage from "@/app/components/screens/bottomOfPage/bottomOfPage"
-import { useEffect } from "react"
+import { useEffect, useState } from "react"
 import Reason from "@/app/components/screens/reason/reason"
 
 const isServer = typeof window === "undefined"
@@ -12,8 +12,21 @@ const WOW = !isServer ? require("wow.js") : null
 
 
 export default function Home() {
-	const width = window.innerWidth
-	console.log(width)
+	const [isMobile, setIsMobile] = useState(false)
+
+	useEffect(() => {
+		const handleResize = () => {
+			setIsMobile(window.innerWidth <= 1024) // Установите здесь нужную ширину для мобильных устройств
+		}
+
+		handleResize() // Проверка при загрузке страницы
+
+		window.addEventListener("resize", handleResize)
+
+		return () => {
+			window.removeEventListener("resize", handleResize)
+		}
+	}, [])
 	useEffect(() => {
 		if (!window.location.hash) {
 			window.scrollTo({ top: 0, left: 0, behavior: "instant" })
@@ -34,11 +47,15 @@ export default function Home() {
 			<div className="first">
 				<div className="wrapper">
 					<div>
-						{width < 1024 ? "" :
-							<div className="first-bg wow fadeIn">
-								<Image width="2448" height="1769" src="/img/content/first-bg.png" priority alt="" />
-							</div>
-						}
+						<>
+							{!isMobile && (
+								<div className="first-bg wow fadeIn">
+									<Image width="2448" height="1769" src="/img/content/first-bg.png" priority alt="" />
+								</div>
+							)}
+						</>
+
+
 						<div className="first-content">
 							<div className="first-title wow fadeInUp">
 								{/*Улучшаем маркетинг вашего бизнеса*/}
