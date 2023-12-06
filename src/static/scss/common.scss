@@ -371,6 +371,9 @@
         max-width: 70%;
         @include media-max-m {
             display: none;
+            img {
+                display: none;
+            }
         }
 
         img {
