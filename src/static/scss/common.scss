@@ -3095,7 +3095,7 @@
             left: 10%;
             z-index: -1;
             background: linear-gradient(180deg, #9a29e5, #e330bf);
-            opacity: .2;
+            opacity: .1;
             border-radius: 50%;
             filter: blur(80px);
             @include blob-size;
@@ -3111,7 +3111,7 @@
             left: 60%;
             z-index: -1;
             background: linear-gradient(180deg, #2987e5, #30c2e3);
-            opacity: .2;
+            opacity: .1;
             border-radius: 50%;
             filter: blur(80px);
             @include blob-size;
