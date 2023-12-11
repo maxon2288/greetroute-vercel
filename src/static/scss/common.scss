@@ -1574,9 +1574,19 @@
 
 }
 
+.body-container {
+    .number {
+        display: flex !important;
+    }
+}
+
 .reason {
     position: relative;
     padding-bottom: 80px;
+
+    .number {
+        display: none;
+    }
 
     .wrapper {
         position: relative;
@@ -3203,6 +3213,8 @@
     flex-direction: column;
     position: relative;
     padding-top: 160px;
+    padding-left: 16px;
+    padding-right: 16px;
     @include media-max-s {
         padding-top: 100px;
         padding-bottom: 64px;
@@ -3309,7 +3321,7 @@
         line-height: 120%;
         font-weight: 700;
         @include media-max-s {
-            font-size: 28px;
+            font-size: 24px;
         }
     }
 

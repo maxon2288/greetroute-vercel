@@ -9,7 +9,7 @@ export default function Footer() {
 			<div className="footer">
 				<div className="wrapper">
 					<div>
-						<Link href="/src/pages">
+						<Link href="/">
 							<img src="/img/svg/footer-logo.svg" alt="" />
 						</Link>
 						© GreetRoute {year}. Все права защищены

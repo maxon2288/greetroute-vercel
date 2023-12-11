@@ -95,7 +95,7 @@ export default async function POST(req, res) {
 	const data = {
 		to: "greetroute@gmail.com",
 		from: "greetroute@gmail.com",
-		subject: "New web form message!",
+		subject: "Новая заявка с сайта GreetRoute",
 		text: message,
 		html: message.replace(/\r\n/g, "<br />")
 	}

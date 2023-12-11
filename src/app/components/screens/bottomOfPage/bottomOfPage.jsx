@@ -71,7 +71,7 @@ export default function BottomOfPage() {
 				<div className="wrapper">
 					<div>
 						<div className="form-top">
-							<h2 className="wow fadeInUp">Начнем сотрудничать?</h2>
+							<h2 className="wow fadeInUp">Остались вопросы?</h2>
 							<p className="wow fadeInUp" data-wow-delay="0.2s">
 								Заполните форму и наш специалист свяжется с вами <span>в ближайшее время</span>
 							</p>
@@ -114,10 +114,11 @@ export default function BottomOfPage() {
 										<input type="text" name="message" />
 									</div>
 									<div className="form-item wow fadeInUp" data-wow-delay="0.6s">
-										<button>Отправить</button>
+										<button>Получить консультацию</button>
 									</div>
 									<p className="wow fadeInUp" data-wow-delay="0.7s">
-										Отправляя эту форму, я подтверждаю, что принимаю <Link href="/privacy-policy">политику
+										Отправляя сообщение в мессенджеры и отправляя эту форму, я подтверждаю, что
+										принимаю <Link href="/privacy-policy">политику
 										конфиденциальности GreetRoute</Link> и согласен на <a href="/consent">обработку
 										персональных данных</a>.
 									</p>

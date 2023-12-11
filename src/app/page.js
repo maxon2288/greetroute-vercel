@@ -16,7 +16,7 @@ export default function Home() {
 
 	useEffect(() => {
 		const handleResize = () => {
-			setIsMobile(window.innerWidth <= 1024) // Установите здесь нужную ширину для мобильных устройств
+			setIsMobile(window.innerWidth <= 1023) // Установите здесь нужную ширину для мобильных устройств
 		}
 
 		handleResize() // Проверка при загрузке страницы
@@ -28,9 +28,11 @@ export default function Home() {
 		}
 	}, [])
 	useEffect(() => {
+
 		if (!window.location.hash) {
 			window.scrollTo({ top: 0, left: 0, behavior: "instant" })
 		}
+		document.querySelector("body").classList.add("body-container")
 		document.querySelector("body").style.visibility = "visible"
 		document.querySelector("body").style.opacity = 1
 
@@ -69,7 +71,7 @@ export default function Home() {
 								</h1>
 							</div>
 							<p className="wow fadeInUp" data-wow-delay="0.2s">
-								GreetRoute- <b>одно из лучших</b> агентств по разработке и продвижению сайтов <b>в
+								GreetRoute — <b>одно из лучших</b> агентств по разработке и продвижению сайтов <b>в
 								Казахстане</b>.
 							</p>
 							<div className="wow fadeInUp" data-wow-delay="0.4s">
