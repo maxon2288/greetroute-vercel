@@ -10,7 +10,7 @@ export default function Reason() {
 	return (
 		<>
 			<div>
-				{window.location.pathname == "/" ? (
+				{window.location.pathname === "/" ? (
 					<div className="number">
 						<div className="number-top wow fadeInDown">3</div>
 						<div className="number-title wow fadeIn" data-wow-delay="0.7s">
