@@ -1,16 +1,17 @@
 "use client"
 
 import Image from "next/image"
-import { useEffect } from "react"
+import { useEffect, useState } from "react"
 
 export default function Reason() {
+	const [loc, setLoc] = useState("")
 	useEffect(() => {
-		console.log(window.location.pathname)
+		setLoc(window.location.pathname)
 	}, [])
 	return (
 		<>
 			<div>
-				{window.location.pathname === "/" ? (
+				{loc === "/" ? (
 					<div className="number">
 						<div className="number-top wow fadeInDown">3</div>
 						<div className="number-title wow fadeIn" data-wow-delay="0.7s">
