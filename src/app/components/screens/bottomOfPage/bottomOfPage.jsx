@@ -119,8 +119,8 @@ export default function BottomOfPage() {
 									<p className="wow fadeInUp" data-wow-delay="0.7s">
 										Отправляя сообщение в мессенджеры и отправляя эту форму, я подтверждаю, что
 										принимаю <Link href="/privacy-policy">политику
-										конфиденциальности GreetRoute</Link> и согласен на <a href="/consent">обработку
-										персональных данных</a>.
+										конфиденциальности GreetRoute</Link> и согласен на <Link href="/consent">обработку
+										персональных данных</Link>.
 									</p>
 								</form>
 								<div className={`form-ok ${showOk ? "active" : ""}`}>

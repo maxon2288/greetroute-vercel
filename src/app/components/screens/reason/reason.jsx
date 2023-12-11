@@ -1,17 +1,23 @@
 "use client"
 
 import Image from "next/image"
+import { useEffect } from "react"
 
 export default function Reason() {
+	useEffect(() => {
+		console.log(window.location.pathname)
+	}, [])
 	return (
 		<>
 			<div>
-				<div className="number">
-					<div className="number-top wow fadeInDown">3</div>
-					<div className="number-title wow fadeIn" data-wow-delay="0.7s">
-						Преимущества
-					</div>
-				</div>
+				{window.location.pathname == "/" ? (
+					<div className="number">
+						<div className="number-top wow fadeInDown">3</div>
+						<div className="number-title wow fadeIn" data-wow-delay="0.7s">
+							Преимущества
+						</div>
+					</div>) : ""}
+
 				<div className="reason-top">
 					<h2 className="wow fadeInUp">Почему мы?</h2>
 					<p className=" wow fadeInUp" data-wow-delay="0.2s">
