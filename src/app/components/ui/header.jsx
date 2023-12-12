@@ -98,7 +98,7 @@ export default function Header() {
 								</li>
 							</ul>
 						</div>
-						<Link href="/#form" className="header-call">
+						<Link href="#form" className="header-call">
 							Связаться
 						</Link>
 						<div className="header-open" onClick={() => setMenuState(!menuActive)}>
@@ -116,7 +116,7 @@ export default function Header() {
 						<img src="/img/svg/header-menu-close.svg" alt="" />
 					</div>
 				</div>
-				<Link href="/#form" onClick={() => setMenuState(!menuActive)}>
+				<Link href="#form" onClick={() => setMenuState(!menuActive)}>
 					Связаться
 				</Link>
 				<div className="soc">
@@ -140,6 +140,16 @@ export default function Header() {
 						<span>greetroute@gmail.com</span>
 					</Link>
 				</div>
+				<h2>
+					<Link href="/#cases" onClick={() => setMenuState(!menuActive)}>
+						Кейсы
+					</Link>
+				</h2>
+				<h2>
+					<Link href="/faq" onClick={() => setMenuState(!menuActive)}>
+						Вопрос-ответ
+					</Link>
+				</h2>
 				<h2>Услуги</h2>
 				<ul>
 					<li>
@@ -168,16 +178,7 @@ export default function Header() {
 						</Link>
 					</li>
 				</ul>
-				<h2>
-					<Link href="/#cases" onClick={() => setMenuState(!menuActive)}>
-						Кейсы
-					</Link>
-				</h2>
-				<h2>
-					<Link href="/faq" onClick={() => setMenuState(!menuActive)}>
-						Вопрос-ответ
-					</Link>
-				</h2>
+
 			</div>
 		</>
 	)

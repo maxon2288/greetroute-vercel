@@ -52,7 +52,7 @@ export default function DentaCare() {
 									улучшения видимости, трафика и конверсии. Стратегия привлечения клиентов для
 									компании по разработке сайтов.
 								</p>
-								<Link href="/#form">
+								<Link href="#form">
 									Заказать
 									<img src="/img/svg/serv-icon.svg" alt="" />
 								</Link>
@@ -65,7 +65,7 @@ export default function DentaCare() {
 									аудитории через оптимизацию контента, ключевых слов и технические улучшения для
 									привлечения клиентов и укрепления позиций компании.
 								</p>
-								<Link href="/#form">
+								<Link href="#form">
 									Заказать
 									<img src="/img/svg/serv-icon.svg" alt="" />
 								</Link>
