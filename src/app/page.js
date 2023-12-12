@@ -152,7 +152,8 @@ export default function Home() {
 						</p>
 					</div>
 					<div className="services-items">
-						<Link href="/services/branding" className="services-item wow fadeInUp" data-wow-delay="0.2s">
+						<Link href="/services/branding" className="services-item services-item-50 wow fadeInUp"
+							  data-wow-delay="0.2s">
 							<h3>
 								<img src="/img/svg/header-serv-2.svg" alt="" />
 								Брендинг
@@ -164,19 +165,20 @@ export default function Home() {
 								<img src="/img/svg/button-arrow.svg" alt="" />
 							</div>
 						</Link>
-						<Link href="/services/uiux-design" className="services-item wow fadeInUp" data-wow-delay="0.4s">
-							<h3>
-								<img src="/img/svg/header-serv-3.svg" alt="" />
-								UI/UX Дизайн
-							</h3>
-							<p>Проектирование, разработка концепции, цветовая палитра, шрифты и стили. Макет каждой
-								страницы.</p>
-							<div>
-								Подробнее
-								<img src="/img/svg/button-arrow.svg" alt="" />
-							</div>
-						</Link>
-						<Link href="/services/web" className="services-item wow fadeInUp" data-wow-delay="0.6s">
+						{/*<Link href="/services/uiux-design" className="services-item wow fadeInUp" data-wow-delay="0.4s">*/}
+						{/*	<h3>*/}
+						{/*		<img src="/img/svg/header-serv-3.svg" alt="" />*/}
+						{/*		UI/UX Дизайн*/}
+						{/*	</h3>*/}
+						{/*	<p>Проектирование, разработка концепции, цветовая палитра, шрифты и стили. Макет каждой*/}
+						{/*		страницы.</p>*/}
+						{/*	<div>*/}
+						{/*		Подробнее*/}
+						{/*		<img src="/img/svg/button-arrow.svg" alt="" />*/}
+						{/*	</div>*/}
+						{/*</Link>*/}
+						<Link href="/services/web" className="services-item services-item-50 wow fadeInUp"
+							  data-wow-delay="0.6s">
 							<h3>
 								<img src="/img/svg/header-serv-1.svg" alt="" />
 								Разработка сайта

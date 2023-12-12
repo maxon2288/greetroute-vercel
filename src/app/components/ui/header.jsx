@@ -62,15 +62,15 @@ export default function Header() {
 												</div>
 												<p>Логотип, брендбук, айдентика и фирменный стиль для узнаваемости</p>
 											</Link>
-											<Link href="/services/uiux-design">
-												<div>
-													<Image width="18" height="18" src="/img/svg/header-serv-3.svg"
-														   alt="" />
-													<h3>UI/UX Дизайн</h3>
-												</div>
-												<p>Продуманное проектирование и разработка дизайна вашего сайта в
-													Figma </p>
-											</Link>
+											{/*<Link href="/services/uiux-design">*/}
+											{/*	<div>*/}
+											{/*		<Image width="18" height="18" src="/img/svg/header-serv-3.svg"*/}
+											{/*			   alt="" />*/}
+											{/*		<h3>UI/UX Дизайн</h3>*/}
+											{/*	</div>*/}
+											{/*	<p>Продуманное проектирование и разработка дизайна вашего сайта в*/}
+											{/*		Figma </p>*/}
+											{/*</Link>*/}
 											<Link href="/services/seo">
 												<div>
 													<Image width="18" height="18" src="/img/svg/header-serv-4.svg"
@@ -162,11 +162,11 @@ export default function Header() {
 							<h3>Брендинг</h3>
 						</Link>
 					</li>
-					<li>
-						<Link href="/services/uiux-design">
-							<h3>UI/UX Дизайн</h3>
-						</Link>
-					</li>
+					{/*<li>*/}
+					{/*	<Link href="/services/uiux-design">*/}
+					{/*		<h3>UI/UX Дизайн</h3>*/}
+					{/*	</Link>*/}
+					{/*</li>*/}
 					<li>
 						<Link href="/services/seo">
 							<h3>SEO-продвижение</h3>
