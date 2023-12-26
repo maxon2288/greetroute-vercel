@@ -3205,6 +3205,82 @@
 
 }
 
+.common-text {
+    margin-top: 80px;
+    padding-bottom: 80px;
+
+    .wrapper > div {
+        background-color: #fff;
+        position: relative;
+        border-radius: 24px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+
+        &:before {
+            content: '';
+            position: absolute;
+            width: 100%;
+            top: -3px;
+            height: 100%;
+            border-radius: 24px;
+            background: linear-gradient(90deg, #f6f6f6 0, #d9d9d9 50%, #d9d9d9 50%, #F6F6F6FF 100%);
+            z-index: -1;
+        }
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    @include media-max-m {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    h2 {
+        color: #222;
+        text-align: center;
+        font-size: 72px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 130%;
+        margin-bottom: 16px;
+        @include media-max-xl {
+            font-size: 56px;
+        }
+        @include media-max-s {
+            font-size: 40px;
+            line-height: 110%;
+        }
+    }
+
+    p {
+        color: #303030;
+        text-align: center;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 140%;
+        max-width: 563px;
+        @include media-max-xl {
+            font-size: 20px;
+        }
+        @include media-max-s {
+            font-size: 18px;
+        }
+
+        span {
+            color: #D324FF;
+        }
+    }
+
+    a {
+        @include button-primary;
+        margin-top: 32px;
+    }
+}
+
 .err404 {
     display: flex;
     justify-content: center;

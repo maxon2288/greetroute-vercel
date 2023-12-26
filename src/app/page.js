@@ -219,6 +219,18 @@ export default function Home() {
 					</div>
 				</div>
 			</div>
+			{/*<div className="common-text">*/}
+			{/*	<div className="wrapper">*/}
+			{/*		<div>*/}
+			{/*			<h2 className="wow fadeInUp">Используем Нейромаркетинг</h2>*/}
+			{/*			<p className="wow fadeInUp" data-wow-delay="0.2s">*/}
+			{/*				Наизусть знаем на что обращает внимание посетитель. Влияем на его принятие решения*/}
+			{/*			</p>*/}
+			{/*			<a className="wow fadeInUp" data-wow-delay="0.4s" href="#form">Получить консультацию</a>*/}
+			{/*		</div>*/}
+			{/*	</div>*/}
+			{/*</div>*/}
+
 			<div className="cases" id={"cases"}>
 				<div className="wrapper">
 					<div>
