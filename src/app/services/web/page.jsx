@@ -42,7 +42,7 @@ export default function DentaCare() {
 						<div className="serv-items">
 							<div className="serv-item wow fadeInUp" data-wow-delay="0.2s">
 								<h3>Быстрый старт</h3>
-								<span>130 000 ₸</span>
+								<span>180 000 ₸</span>
 								<p>Есть возможность подключения популярных конструкторов, либо разработки уникального но
 									простого маленького сайта</p>
 								<ul>
