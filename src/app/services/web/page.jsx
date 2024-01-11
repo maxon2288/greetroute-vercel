@@ -39,25 +39,25 @@ export default function DentaCare() {
 				</div>
 				<div className="wrapper">
 					<div className="serv-items-content">
-						<div className="serv-items">
-							<div className="serv-item wow fadeInUp" data-wow-delay="0.2s">
-								<h3>Быстрый старт</h3>
-								<span>180 000 ₸</span>
-								<p>Сайт на конструкторе Tilda</p>
-								<ul>
-									<li>UX-проектирование</li>
-									<li>Копирайт</li>
-									<li>UI/UX дизайн</li>
-									<li>Front-end</li>
-									<li>СMS (при надобности)</li>
-									<li>Подбор домена и хостинга</li>
-									<li>Отправка почты с формы обратной связи</li>
-								</ul>
-								<Link href="#form">
-									Заказать
-									<img src="/img/svg/serv-icon.svg" alt="" />
-								</Link>
-							</div>
+						<div className="serv-items serv-items-50">
+							{/*<div className="serv-item wow fadeInUp" data-wow-delay="0.2s">*/}
+							{/*	<h3>Быстрый старт</h3>*/}
+							{/*	<span>180 000 ₸</span>*/}
+							{/*	<p>Сайт на конструкторе Tilda</p>*/}
+							{/*	<ul>*/}
+							{/*		<li>UX-проектирование</li>*/}
+							{/*		<li>Копирайт</li>*/}
+							{/*		<li>UI/UX дизайн</li>*/}
+							{/*		<li>Front-end</li>*/}
+							{/*		<li>СMS (при надобности)</li>*/}
+							{/*		<li>Подбор домена и хостинга</li>*/}
+							{/*		<li>Отправка почты с формы обратной связи</li>*/}
+							{/*	</ul>*/}
+							{/*	<Link href="#form">*/}
+							{/*		Заказать*/}
+							{/*		<img src="/img/svg/serv-icon.svg" alt="" />*/}
+							{/*	</Link>*/}
+							{/*</div>*/}
 							<div className="serv-item popular wow fadeInUp" data-wow-delay="0.4s">
 								<h3>Landing Page</h3>
 								<span>от 220 000 ₸</span>

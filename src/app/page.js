@@ -71,8 +71,8 @@ export default function Home() {
 								</h1>
 							</div>
 							<p className="wow fadeInUp" data-wow-delay="0.2s">
-								GreetRoute — <b>одно из лучших</b> агентств по разработке и продвижению сайтов <b>в
-								Казахстане</b>.
+								Знаем, как убедить вашу целевую аудиторию <b>оставить заявку у вас</b>,
+								а не у конкурентов.
 							</p>
 							<div className="wow fadeInUp" data-wow-delay="0.4s">
 								<Link href="#form">
@@ -142,7 +142,7 @@ export default function Home() {
 					<div className="number">
 						<div className="number-top wow fadeInDown">1</div>
 						<div className="number-title wow fadeIn" data-wow-delay="0.7s">
-							Услуги
+							Кто мы?
 						</div>
 					</div>
 					<div className="services-top">
@@ -219,18 +219,141 @@ export default function Home() {
 					</div>
 				</div>
 			</div>
-			{/*<div className="common-text">*/}
-			{/*	<div className="wrapper">*/}
-			{/*		<div>*/}
-			{/*			<h2 className="wow fadeInUp">Используем Нейромаркетинг</h2>*/}
-			{/*			<p className="wow fadeInUp" data-wow-delay="0.2s">*/}
-			{/*				Наизусть знаем на что обращает внимание посетитель. Влияем на его принятие решения*/}
-			{/*			</p>*/}
-			{/*			<a className="wow fadeInUp" data-wow-delay="0.4s" href="#form">Получить консультацию</a>*/}
-			{/*		</div>*/}
-			{/*	</div>*/}
-			{/*</div>*/}
+			<div className="need">
+				<div className="wrapper">
+					<div className="need-contanier">
+						<h2>
+							К нам обращаются, <span>когда нужно:</span>
+						</h2>
+						<div className="need-items">
+							<div className="need-item">
+								<div className="need-title">
+									Донести ценности бизнеса <img src="img/content/target.png" alt="" />
+								</div>
+								<div className="need-desc">
+									Когда необходимо выделить сильные стороны, передать понятным языком и создать
+									положительное восприятие компании.
+								</div>
+								<div className="need-image">
+									<img src="/img/content/need-1.jpg" alt="" />
+								</div>
+							</div>
+							<div className="need-item">
+								<div className="need-title">
+									Получить целевые заявки <img src="img/content/order.png" alt="" />
+								</div>
+								<div className="need-desc">
+									Когда нужны прогретые потенциальные клиенты: без особых возражений. Чтобы тратить
+									меньше времени на продажу.
+								</div>
+								<div className="need-image">
+									<img src="/img/content/need-2.jpg" alt="" />
+								</div>
+							</div>
+						</div>
 
+						<Link href="#form" className="need-button">
+							Получить консультацию
+						</Link>
+					</div>
+				</div>
+			</div>
+			<div className="ubedim">
+				<div className="wrapper">
+					<div className="ubedim-container">
+						<h2>
+							Как мы убедим вашу аудиторию <span>купить именно у вас</span>
+						</h2>
+						<div className="ubedim-items">
+							<div className="ubedim-item">
+								<div className="ubedim-title">
+									Найдём ваши преимущества и упакуем в мощный оффер <img src="img/content/offer.png"
+																						   alt="" />
+								</div>
+								<div className="ubedim-desc">
+									Проведём глубинное интервью, чтобы понять ваш бизнес до деталей и найдём все ваши
+									сильные стороны, ради которых клиент захочет оставить заявку.
+								</div>
+							</div>
+							<div className="ubedim-item">
+								<div className="ubedim-title">
+									Покажем решение болей ЦА <img src="img/content/massage.png" alt="" />
+								</div>
+								<div className="ubedim-desc">
+									Выясним, что волнует вашу аудиторию и какие у неё есть возражения. Обработаем их в
+									заголовках и тексте.
+								</div>
+							</div>
+							<div className="ubedim-item">
+								<div className="ubedim-title">
+									Выделимся и победим конкурентов <img src="img/content/check.png" alt="" />
+								</div>
+								<div className="ubedim-desc">
+									Анализируем до 10 ваших конкурентов, чтобы понять, что у них хорошо, а что плохо,
+									как выделить вас и увести их аудиторию.
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div className="reason">
+				<div className="background-blurs">
+					<div className="blur-1"></div>
+				</div>
+				<div className="wrapper">
+					<Reason />
+				</div>
+			</div>
+			<div className="result">
+				<div className="wrapper">
+					<div className="result-container">
+						<h2>
+							В результате
+						</h2>
+						<div className="result-items">
+							<div className="result-item result-black">
+								<div className="result-title">
+									<span>+50-100%</span> заявок
+								</div>
+								<div className="result-desc">
+									За счет отборных структур и маркетинговых приемов основанных на зарубежных
+									исследованиях мировых маркетинговых агентств.
+								</div>
+							</div>
+
+							<div className="result-item result-conv">
+								<div className="result-desc">
+									<img src="/img/content/magnet.png" alt="" /> Диапазон <span>конверсий</span> сайтов
+									наших
+									клиентов <span>от 2% до 12%</span> в самых сложных сферах, в
+									зависимости от температуры входящего трафика.
+								</div>
+							</div>
+							<div className="result-item result-vovl">
+								<div className="result-title">
+									Ваше участие за весь проект ≈ <span>6 часов</span>
+								</div>
+								<div className="result-desc">
+									Вам нужно только ответить на наши вопросы и принять результат, остальное мы сделаем
+									сами.
+								</div>
+							</div>
+							<div className="result-item">
+								<div className="result-title">
+									Выше лояльность
+								</div>
+								<div className="result-desc">
+									За счет правильного расположения и подачи нужной информации в нужную секунду при
+									чтении сайта.
+								</div>
+							</div>
+
+
+						</div>
+					</div>
+				</div>
+			</div>
 			<div className="cases" id={"cases"}>
 				<div className="wrapper">
 					<div>
@@ -238,7 +361,7 @@ export default function Home() {
 							<div className="blur-2"></div>
 						</div>
 						<div className="number">
-							<div className="number-top wow fadeInDown">2</div>
+							<div className="number-top wow fadeInDown">3</div>
 							<div className="number-title wow fadeIn" data-wow-delay="0.7s">
 								Кейсы
 							</div>
@@ -286,14 +409,19 @@ export default function Home() {
 				</div>
 			</div>
 
-			<div className="reason">
-				<div className="background-blurs">
-					<div className="blur-1"></div>
-				</div>
-				<div className="wrapper">
-					<Reason />
-				</div>
-			</div>
+
+			{/*<div className="common-text">*/}
+			{/*	<div className="wrapper">*/}
+			{/*		<div>*/}
+			{/*			<h2 className="wow fadeInUp">Используем Нейромаркетинг</h2>*/}
+			{/*			<p className="wow fadeInUp" data-wow-delay="0.2s">*/}
+			{/*				Наизусть знаем на что обращает внимание посетитель. Влияем на его принятие решения*/}
+			{/*			</p>*/}
+			{/*			<a className="wow fadeInUp" data-wow-delay="0.4s" href="#form">Получить консультацию</a>*/}
+			{/*		</div>*/}
+			{/*	</div>*/}
+			{/*</div>*/}
+
 
 			{/*<div className='contacts'>*/}
 			{/*	<div className='wrapper'>*/}
