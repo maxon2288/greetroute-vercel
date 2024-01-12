@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1a822201-2a81-4697-b470-166666f0ccfb" name="Changes" comment="docker update 1111444" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FormatOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2XFilwoCMFYM2RIdRTrlY0H9HLt" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/0personal/GreetRoute/greetroute-vercel&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;C:\\Users\\Maxim\\AppData\\Roaming\\npm\\node_modules\\prettier&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;actions.on.save&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\0personal\GreetRoute\greetroute-site\src\app" />
+      <recent name="C:\0personal\GreetRoute\greetroute-site\src" />
+      <recent name="C:\0personal\GreetRoute\greetroute-site\src\app\services" />
+      <recent name="C:\0personal\GreetRoute\greetroute-site\src\app\components\ui" />
+      <recent name="C:\0personal\GreetRoute\greetroute-site\src\app\cases" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\0personal\GreetRoute\greetroute-site\src" />
+      <recent name="C:\0personal\GreetRoute\greetroute-site\src\static\fonts\ibmplexsans" />
+      <recent name="C:\0personal\GreetRoute\greetroute-site\public\favicon" />
+      <recent name="C:\0personal\GreetRoute\greetroute-site\src\app" />
+      <recent name="C:\0personal\GreetRoute\greetroute-site\src\app\404" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1a822201-2a81-4697-b470-166666f0ccfb" name="Changes" comment="" />
+      <created>1698231384696</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1698231384696</updated>
+      <workItem from="1698231386840" duration="7239000" />
+      <workItem from="1698306440451" duration="10263000" />
+      <workItem from="1698400862020" duration="4831000" />
+      <workItem from="1698519918568" duration="20807000" />
+      <workItem from="1699024685200" duration="1194000" />
+      <workItem from="1699120965843" duration="5128000" />
+      <workItem from="1699286676968" duration="10115000" />
+      <workItem from="1699313819922" duration="1020000" />
+      <workItem from="1699350808696" duration="11883000" />
+      <workItem from="1699444449756" duration="12544000" />
+      <workItem from="1699523897252" duration="9374000" />
+      <workItem from="1699616007802" duration="17990000" />
+      <workItem from="1699810196111" duration="494000" />
+      <workItem from="1699842114922" duration="14163000" />
+      <workItem from="1699967161208" duration="1546000" />
+      <workItem from="1700047993342" duration="23476000" />
+      <workItem from="1700223246436" duration="14107000" />
+      <workItem from="1700409185564" duration="13770000" />
+      <workItem from="1700474762946" duration="13572000" />
+      <workItem from="1700569838754" duration="4263000" />
+      <workItem from="1700662855675" duration="592000" />
+      <workItem from="1701089836367" duration="4327000" />
+      <workItem from="1701258222721" duration="22831000" />
+      <workItem from="1701526199747" duration="4336000" />
+      <workItem from="1701711628226" duration="1740000" />
+      <workItem from="1701713640819" duration="3522000" />
+      <workItem from="1701778590001" duration="1332000" />
+      <workItem from="1701869889933" duration="3495000" />
+      <workItem from="1701895475613" duration="3913000" />
+      <workItem from="1702162677694" duration="1459000" />
+      <workItem from="1702244574257" duration="1912000" />
+      <workItem from="1702296228824" duration="7963000" />
+      <workItem from="1702400445650" duration="4542000" />
+      <workItem from="1702996708133" duration="6000" />
+      <workItem from="1703270068504" duration="866000" />
+      <workItem from="1703624819561" duration="3528000" />
+      <workItem from="1704724854152" duration="733000" />
+      <workItem from="1704976785984" duration="13885000" />
+    </task>
+    <task id="LOCAL-00016" summary="docker update 1111444">
+      <created>1701282775265</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1701282775265</updated>
+    </task>
+    <task id="LOCAL-00017" summary="docker update 1111444">
+      <created>1701282800710</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1701282800710</updated>
+    </task>
+    <task id="LOCAL-00018" summary="docker update 1111444">
+      <created>1701449460111</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1701449460112</updated>
+    </task>
+    <task id="LOCAL-00019" summary="docker update 1111444">
+      <created>1701449792187</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1701449792187</updated>
+    </task>
+    <task id="LOCAL-00020" summary="docker update 1111444">
+      <created>1701449967981</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1701449967981</updated>
+    </task>
+    <task id="LOCAL-00021" summary="docker update 1111444">
+      <created>1701450029520</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1701450029520</updated>
+    </task>
+    <task id="LOCAL-00022" summary="docker update 1111444">
+      <created>1701450563337</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1701450563337</updated>
+    </task>
+    <task id="LOCAL-00023" summary="docker update 1111444">
+      <created>1701451292383</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1701451292383</updated>
+    </task>
+    <task id="LOCAL-00024" summary="docker update 1111444">
+      <created>1701451463698</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1701451463698</updated>
+    </task>
+    <task id="LOCAL-00025" summary="docker update 1111444">
+      <created>1701454467392</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1701454467392</updated>
+    </task>
+    <task id="LOCAL-00026" summary="docker update 1111444">
+      <created>1701455469357</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1701455469357</updated>
+    </task>
+    <task id="LOCAL-00027" summary="docker update 1111444">
+      <created>1701459000161</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1701459000161</updated>
+    </task>
+    <task id="LOCAL-00028" summary="docker update 1111444">
+      <created>1701459500161</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1701459500161</updated>
+    </task>
+    <task id="LOCAL-00029" summary="docker update 1111444">
+      <created>1701459866245</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1701459866245</updated>
+    </task>
+    <task id="LOCAL-00030" summary="docker update 1111444">
+      <created>1701464676582</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1701464676582</updated>
+    </task>
+    <task id="LOCAL-00031" summary="docker update 1111444">
+      <created>1701465804069</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1701465804069</updated>
+    </task>
+    <task id="LOCAL-00032" summary="docker update 1111444">
+      <created>1701466312631</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1701466312631</updated>
+    </task>
+    <task id="LOCAL-00033" summary="docker update 1111444">
+      <created>1701467976885</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1701467976885</updated>
+    </task>
+    <task id="LOCAL-00034" summary="docker update 1111444">
+      <created>1701468174656</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1701468174656</updated>
+    </task>
+    <task id="LOCAL-00035" summary="docker update 1111444">
+      <created>1701468437162</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1701468437162</updated>
+    </task>
+    <task id="LOCAL-00036" summary="docker update 1111444">
+      <created>1701526219989</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1701526219989</updated>
+    </task>
+    <task id="LOCAL-00037" summary="docker update 1111444">
+      <created>1701526632216</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1701526632216</updated>
+    </task>
+    <task id="LOCAL-00038" summary="docker update 1111444">
+      <created>1701526907954</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1701526907954</updated>
+    </task>
+    <task id="LOCAL-00039" summary="docker update 1111444">
+      <created>1701531662869</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1701531662869</updated>
+    </task>
+    <task id="LOCAL-00040" summary="docker update 1111444">
+      <created>1701534247234</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1701534247234</updated>
+    </task>
+    <task id="LOCAL-00041" summary="docker update 1111444">
+      <created>1701711921456</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1701711921456</updated>
+    </task>
+    <task id="LOCAL-00042" summary="docker update 1111444">
+      <created>1701713743658</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1701713743658</updated>
+    </task>
+    <task id="LOCAL-00043" summary="docker update 1111444">
+      <created>1701714579208</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1701714579208</updated>
+    </task>
+    <task id="LOCAL-00044" summary="docker update 1111444">
+      <created>1701714900591</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1701714900591</updated>
+    </task>
+    <task id="LOCAL-00045" summary="docker update 1111444">
+      <created>1701716104476</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1701716104476</updated>
+    </task>
+    <task id="LOCAL-00046" summary="docker update 1111444">
+      <created>1701716311819</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1701716311819</updated>
+    </task>
+    <task id="LOCAL-00047" summary="docker update 1111444">
+      <created>1701717507508</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1701717507508</updated>
+    </task>
+    <task id="LOCAL-00048" summary="docker update 1111444">
+      <created>1701717795886</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1701717795886</updated>
+    </task>
+    <task id="LOCAL-00049" summary="docker update 1111444">
+      <created>1701778603668</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1701778603668</updated>
+    </task>
+    <task id="LOCAL-00050" summary="docker update 1111444">
+      <created>1701779159294</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1701779159294</updated>
+    </task>
+    <task id="LOCAL-00051" summary="docker update 1111444">
+      <created>1701779451722</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1701779451722</updated>
+    </task>
+    <task id="LOCAL-00052" summary="docker update 1111444">
+      <created>1701869902913</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1701869902913</updated>
+    </task>
+    <task id="LOCAL-00053" summary="docker update 1111444">
+      <created>1701870932654</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1701870932654</updated>
+    </task>
+    <task id="LOCAL-00054" summary="docker update 1111444">
+      <created>1701873181218</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1701873181218</updated>
+    </task>
+    <task id="LOCAL-00055" summary="docker update 1111444">
+      <created>1702298197728</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1702298197729</updated>
+    </task>
+    <task id="LOCAL-00056" summary="docker update 1111444">
+      <created>1702312141922</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1702312141922</updated>
+    </task>
+    <task id="LOCAL-00057" summary="docker update 1111444">
+      <created>1702312205414</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1702312205414</updated>
+    </task>
+    <task id="LOCAL-00058" summary="docker update 1111444">
+      <created>1702312532343</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1702312532343</updated>
+    </task>
+    <task id="LOCAL-00059" summary="docker update 1111444">
+      <created>1702409189919</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1702409189920</updated>
+    </task>
+    <task id="LOCAL-00060" summary="docker update 1111444">
+      <created>1702409571958</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1702409571958</updated>
+    </task>
+    <task id="LOCAL-00061" summary="docker update 1111444">
+      <created>1703627659665</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1703627659666</updated>
+    </task>
+    <task id="LOCAL-00062" summary="docker update 1111444">
+      <created>1704724884822</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1704724884823</updated>
+    </task>
+    <task id="LOCAL-00063" summary="docker update 1111444">
+      <created>1704741534250</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1704741534250</updated>
+    </task>
+    <task id="LOCAL-00064" summary="docker update 1111444">
+      <created>1704996526744</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1704996526744</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="makfsjaklfd" />
+    <MESSAGE value="сделал анимации на страницах услуг и главной" />
+    <MESSAGE value="сделал адаптив" />
+    <MESSAGE value="сделал отправку почты" />
+    <MESSAGE value="сделал подтверждение отправки письма" />
+    <MESSAGE value="docker" />
+    <MESSAGE value="docker update 1111" />
+    <MESSAGE value="docker update 1111444" />
+    <option name="LAST_COMMIT_MESSAGE" value="docker update 1111444" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/app/services/seo/page.jsx</url>
+          <line>138</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/app/components/screens/bottomOfPage/bottomOfPage.jsx</url>
+          <line>80</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
