@@ -22,7 +22,7 @@ export default function Reason() {
 				<div className="reason-top">
 					<h2 className="wow fadeInUp">Сайты для успешной лидогенерации, <br /> <span>на понятном, продающем языке</span>
 					</h2>
-					<p>
+					<p className="wow fadeInUp">
 						Основные <span>факты о нас</span> и нашем подходе к проектам
 					</p>
 				</div>
@@ -30,14 +30,14 @@ export default function Reason() {
 					<div className="reason-item wow fadeInUp" data-wow-delay="0.3s">
 						<h3>Проводим анализ бизнеса и ниши <Image width="32" height="32" src="/img/content/why-1.png"
 																  alt="" /></h3>
-						<p>В самом начале мы анализируем нишу аудиторию и конкурентов, чтобы подобрать самые актуальные
+						<p>В самом начале мы анализируем нишу, аудиторию и конкурентов, чтобы подобрать самые актуальные
 							решения под ваши потребности</p>
 					</div>
 					<div className="reason-item wow fadeInUp" data-wow-delay="0.5s">
 						<h3>Пишем заголовки, которые помогают продавать <Image width="32" height="32"
 																			   src="/img/content/why-2.png" alt="" />
 						</h3>
-						<p>Наша задача — вовлечь, заинтересовать и убедить быстро через заголовки.</p>
+						<p>Наша задача — вовлечь, заинтересовать и убедить, быстро, через заголовки.</p>
 					</div>
 					<div className="reason-item wow fadeInUp" data-wow-delay="0.7s">
 						<h3>Свежий, цепляющий дизайн <Image width="32" height="32" src="/img/content/why-3.png"

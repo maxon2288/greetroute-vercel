@@ -222,11 +222,11 @@ export default function Home() {
 			<div className="need">
 				<div className="wrapper">
 					<div className="need-contanier">
-						<h2>
+						<h2 className="wow fadeInUp">
 							К нам обращаются, <span>когда нужно:</span>
 						</h2>
 						<div className="need-items">
-							<div className="need-item">
+							<div className="need-item wow fadeInUp">
 								<div className="need-title">
 									Донести ценности бизнеса <img src="img/content/target.png" alt="" />
 								</div>
@@ -238,7 +238,7 @@ export default function Home() {
 									<img src="/img/content/need-1.jpg" alt="" />
 								</div>
 							</div>
-							<div className="need-item">
+							<div className="need-item wow fadeInUp" data-wow-delay="0.2s">
 								<div className="need-title">
 									Получить целевые заявки <img src="img/content/order.png" alt="" />
 								</div>
@@ -261,11 +261,11 @@ export default function Home() {
 			<div className="ubedim">
 				<div className="wrapper">
 					<div className="ubedim-container">
-						<h2>
+						<h2 className="wow fadeInUp">
 							Как мы убедим вашу аудиторию <span>купить именно у вас</span>
 						</h2>
 						<div className="ubedim-items">
-							<div className="ubedim-item">
+							<div className="ubedim-item wow fadeInUp">
 								<div className="ubedim-title">
 									Найдём ваши преимущества и упакуем в мощный оффер <img src="img/content/offer.png"
 																						   alt="" />
@@ -275,7 +275,7 @@ export default function Home() {
 									сильные стороны, ради которых клиент захочет оставить заявку.
 								</div>
 							</div>
-							<div className="ubedim-item">
+							<div className="ubedim-item wow fadeInUp">
 								<div className="ubedim-title">
 									Покажем решение болей ЦА <img src="img/content/massage.png" alt="" />
 								</div>
@@ -284,7 +284,7 @@ export default function Home() {
 									заголовках и тексте.
 								</div>
 							</div>
-							<div className="ubedim-item">
+							<div className="ubedim-item wow fadeInUp">
 								<div className="ubedim-title">
 									Выделимся и победим конкурентов <img src="img/content/check.png" alt="" />
 								</div>
@@ -308,11 +308,11 @@ export default function Home() {
 			<div className="result">
 				<div className="wrapper">
 					<div className="result-container">
-						<h2>
+						<h2 className="wow fadeInUp">
 							В результате
 						</h2>
 						<div className="result-items">
-							<div className="result-item result-black">
+							<div className="result-item result-black wow fadeInUp" data-wow-delay="0.2s">
 								<div className="result-title">
 									<span>+50-100%</span> заявок
 								</div>
@@ -322,7 +322,7 @@ export default function Home() {
 								</div>
 							</div>
 
-							<div className="result-item result-conv">
+							<div className="result-item result-conv wow fadeInUp" data-wow-delay="0.2s">
 								<div className="result-desc">
 									<img src="/img/content/magnet.png" alt="" /> Диапазон <span>конверсий</span> сайтов
 									наших
@@ -330,7 +330,7 @@ export default function Home() {
 									зависимости от температуры входящего трафика.
 								</div>
 							</div>
-							<div className="result-item result-vovl">
+							<div className="result-item result-vovl wow fadeInUp">
 								<div className="result-title">
 									Ваше участие за весь проект ≈ <span>6 часов</span>
 								</div>
@@ -339,7 +339,7 @@ export default function Home() {
 									сами.
 								</div>
 							</div>
-							<div className="result-item">
+							<div className="result-item wow fadeInUp" data-wow-delay="0.2s">
 								<div className="result-title">
 									Выше лояльность
 								</div>
