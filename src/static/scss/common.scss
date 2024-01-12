@@ -3772,6 +3772,12 @@
 .result {
     padding-bottom: 60px;
 
+    &-button {
+        a {
+            @include button-primary;
+        }
+    }
+
     h2 {
         color: #222;
         font-size: 64px;

@@ -252,7 +252,7 @@ export default function Home() {
 							</div>
 						</div>
 
-						<Link href="#form" className="need-button">
+						<Link href="#form" className="need-button wow fadeInUp">
 							Получить консультацию
 						</Link>
 					</div>
@@ -350,6 +350,9 @@ export default function Home() {
 							</div>
 
 
+						</div>
+						<div className="result-button wow fadeInUp">
+							<a href="#form">Получить консультацию</a>
 						</div>
 					</div>
 				</div>
