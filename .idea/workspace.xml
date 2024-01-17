@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1a822201-2a81-4697-b470-166666f0ccfb" name="Changes" comment="docker update 1111444" />
+    <list default="true" id="1a822201-2a81-4697-b470-166666f0ccfb" name="Changes" comment="docker update 1111444">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -100,14 +102,7 @@
       <workItem from="1704976785984" duration="13885000" />
       <workItem from="1705023085178" duration="1950000" />
       <workItem from="1705059956873" duration="618000" />
-      <workItem from="1705450882985" duration="2195000" />
-    </task>
-    <task id="LOCAL-00025" summary="docker update 1111444">
-      <created>1701454467392</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1701454467392</updated>
+      <workItem from="1705450882985" duration="3610000" />
     </task>
     <task id="LOCAL-00026" summary="docker update 1111444">
       <created>1701455469357</created>
@@ -445,7 +440,14 @@
       <option name="project" value="LOCAL" />
       <updated>1705454147855</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="docker update 1111444">
+      <created>1705502422999</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1705502422999</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
