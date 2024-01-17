@@ -8,6 +8,8 @@ import "@/static/scss/mixins.scss"
 import "@/static/scss/GUI.scss"
 import "@/static/scss/common.scss"
 import Script from "next/script"
+import { Suspense } from "react"
+
 
 export default function RootLayout({ children }) {
 	return (
@@ -20,6 +22,10 @@ export default function RootLayout({ children }) {
 			<link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color="#000000" />
 			<meta name="msapplication-TileColor" content="#da532c" />
 			<meta name="theme-color" content="#ffffff" />
+
+		</head>
+		<body style={{ opacity: 0, visibility: "hidden" }}>
+		<Suspense fallback={""}>
 			<Script type="text/javascript">
 				{`
 				(function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
@@ -37,8 +43,9 @@ export default function RootLayout({ children }) {
 				;
 				`}
 			</Script>
-		</head>
-		<body style={{ opacity: 0, visibility: "hidden" }}>{children}</body>
+		</Suspense>
+		{children}
+		</body>
 		</html>
 	)
 }
