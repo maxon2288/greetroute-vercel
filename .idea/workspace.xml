@@ -100,14 +100,7 @@
       <workItem from="1704976785984" duration="13885000" />
       <workItem from="1705023085178" duration="1950000" />
       <workItem from="1705059956873" duration="618000" />
-      <workItem from="1705450882985" duration="1803000" />
-    </task>
-    <task id="LOCAL-00024" summary="docker update 1111444">
-      <created>1701451463698</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1701451463698</updated>
+      <workItem from="1705450882985" duration="2195000" />
     </task>
     <task id="LOCAL-00025" summary="docker update 1111444">
       <created>1701454467392</created>
@@ -445,7 +438,14 @@
       <option name="project" value="LOCAL" />
       <updated>1705453792990</updated>
     </task>
-    <option name="localTasksCounter" value="73" />
+    <task id="LOCAL-00073" summary="docker update 1111444">
+      <created>1705454147855</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1705454147855</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

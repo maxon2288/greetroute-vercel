@@ -46,7 +46,7 @@ export default function Home() {
 			<meta name="description"
 				  content="GreetRoute - агентство по разработке и продвижению сайтов в Казахстане. Оставьте заявку и мы вас проконсультируем!" />
 			<title>Помогаем бизнесу найти клиентов | GreetRoute</title>
-			{/*<meta name="yandex-verification" content="9522d3c093cb1db7" />*/}
+			<meta name="yandex-verification" content="0268f3ced9e26acd" />
 
 			<Header />
 			<div className="first">
