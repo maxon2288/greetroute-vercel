@@ -7,6 +7,7 @@ import BottomOfPage from "@/app/components/screens/bottomOfPage/bottomOfPage"
 import { useEffect, useState } from "react"
 import Reason from "@/app/components/screens/reason/reason"
 
+
 const isServer = typeof window === "undefined"
 const WOW = !isServer ? require("wow.js") : null
 

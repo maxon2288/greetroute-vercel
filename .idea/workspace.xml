@@ -4,7 +4,6 @@
     <list default="true" id="1a822201-2a81-4697-b470-166666f0ccfb" name="Changes" comment="docker update 1111444">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/static/scss/common.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/static/scss/common.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,20 +103,7 @@
       <workItem from="1704976785984" duration="13885000" />
       <workItem from="1705023085178" duration="1950000" />
       <workItem from="1705059956873" duration="618000" />
-    </task>
-    <task id="LOCAL-00021" summary="docker update 1111444">
-      <created>1701450029520</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1701450029520</updated>
-    </task>
-    <task id="LOCAL-00022" summary="docker update 1111444">
-      <created>1701450563337</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1701450563337</updated>
+      <workItem from="1705450882985" duration="1477000" />
     </task>
     <task id="LOCAL-00023" summary="docker update 1111444">
       <created>1701451292383</created>
@@ -448,7 +434,21 @@
       <option name="project" value="LOCAL" />
       <updated>1705073065721</updated>
     </task>
-    <option name="localTasksCounter" value="70" />
+    <task id="LOCAL-00070" summary="docker update 1111444">
+      <created>1705450898874</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1705450898875</updated>
+    </task>
+    <task id="LOCAL-00071" summary="docker update 1111444">
+      <created>1705451124093</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1705451124093</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
