@@ -107,7 +107,7 @@ export default function BottomOfPage() {
 										<div className="form-title">Ссылка на соц сеть, телефон мессенджера либо
 											E-mail
 										</div>
-										<input minLength={5} type="text" name="email" required />
+										<input minLength={5} type="text" name="contact" required />
 									</div>
 									<div className="form-item wow fadeInUp" data-wow-delay="0.5s">
 										<div className="form-title">Сообщение для нас</div>

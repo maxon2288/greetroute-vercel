@@ -73,7 +73,7 @@ export default async function POST(req, res) {
 										Почта/телефон
 									</td>
 									<td style="border-bottom: 1px solid #cccccc; padding: 16px 0;">
-										${body.email}
+										${body.contact}
 									</td>
 								</tr>
 								<tr>
