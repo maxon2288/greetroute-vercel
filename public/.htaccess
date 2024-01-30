@@ -1,3 +1,3 @@
 RewriteEngine On
-RewriteCond %{HTTP_HOST} vercel.app
-RewriteRule (.*) https://www.greetroute.kz/$1 [R=301,L]
+RewriteCond %{HTTP_HOST} ^greetroute-vercel-maxon2288\.vercel\.app$ [NC]
+RewriteRule ^(.*)$ https://greetroute.kz/$1 [R=301,L]
