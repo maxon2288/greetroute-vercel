@@ -1920,6 +1920,15 @@
                 visibility: hidden !important;
             }
 
+            button {
+                transition: 0.2s;
+
+                &:disabled {
+                    opacity: 0.6;
+                    user-select: none;
+                }
+            }
+
             p {
                 font-size: 16px;
                 font-weight: 400;

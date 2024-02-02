@@ -11,7 +11,23 @@ import { useState } from "react"
 export default function BottomOfPage() {
 	// const [state, setState] = useState(initState)
 	const [showOk, setShowOk] = useState(false) // count - переменная состояния, setCount - функция для изменения этого состояния
+	const [inputValue1, setInputValue1] = useState("")
+	const [inputValue2, setInputValue2] = useState("")
 
+	const isButtonDisabled = inputValue1.length <= 4 || inputValue2.length <= 8
+
+	const handleInputChange1 = (e) => {
+		setInputValue1(e.target.value)
+	}
+
+	const handleInputChange2 = (e) => {
+		setInputValue2(e.target.value)
+	}
+
+	const handleSubmit = (e) => {
+		e.preventDefault()
+		// Ваша логика обработки формы
+	}
 	// const { values } = state
 	//
 	// const handleChange = ({ target }) =>
@@ -101,20 +117,22 @@ export default function BottomOfPage() {
 								<form method="post" onSubmit={handleOnSubmit} className={`${showOk ? "hide" : ""}`}>
 									<div className="form-item required  wow fadeInUp" data-wow-delay="0.3s">
 										<div className="form-title">Как к вам обращаться?</div>
-										<input minLength={4} type="text" name="name" required />
+										<input minLength={4} type="text" name="name" value={inputValue1}
+											   onChange={handleInputChange1} required />
 									</div>
 									<div className="form-item required wow fadeInUp" data-wow-delay="0.4s">
 										<div className="form-title">Ссылка на соц сеть, телефон мессенджера либо
 											E-mail
 										</div>
-										<input minLength={5} type="text" name="contact" required />
+										<input minLength={5} type="text" value={inputValue2}
+											   onChange={handleInputChange2} name="contact" required />
 									</div>
 									<div className="form-item wow fadeInUp" data-wow-delay="0.5s">
 										<div className="form-title">Сообщение для нас</div>
 										<input type="text" name="message" />
 									</div>
 									<div className="form-item wow fadeInUp" data-wow-delay="0.6s">
-										<button>Получить консультацию</button>
+										<button disabled={isButtonDisabled}>Получить консультацию</button>
 									</div>
 									<p className="wow fadeInUp" data-wow-delay="0.7s">
 										Отправляя сообщение в мессенджеры и отправляя эту форму, я подтверждаю, что
