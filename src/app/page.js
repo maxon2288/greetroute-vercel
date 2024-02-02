@@ -263,11 +263,11 @@ export default function Home() {
 			<div className="ubedim">
 				<div className="wrapper">
 					<div className="ubedim-container">
-						<h2 className="wow fadeInUp">
+						<h2 className="">
 							Как мы убедим вашу аудиторию <span>купить именно у вас</span>
 						</h2>
 						<div className="ubedim-items">
-							<div className="ubedim-item wow fadeInUp">
+							<div className="ubedim-item">
 								<div className="ubedim-title">
 									Найдём ваши преимущества и упакуем в мощный оффер <img src="img/content/offer.png"
 																						   alt="" />
@@ -277,7 +277,7 @@ export default function Home() {
 									сильные стороны, ради которых клиент захочет оставить заявку.
 								</div>
 							</div>
-							<div className="ubedim-item wow fadeInUp">
+							<div className="ubedim-item">
 								<div className="ubedim-title">
 									Покажем решение болей ЦА <img src="img/content/massage.png" alt="" />
 								</div>
@@ -286,7 +286,7 @@ export default function Home() {
 									заголовках и тексте.
 								</div>
 							</div>
-							<div className="ubedim-item wow fadeInUp">
+							<div className="ubedim-item">
 								<div className="ubedim-title">
 									Выделимся и победим конкурентов <img src="img/content/check.png" alt="" />
 								</div>
@@ -294,6 +294,85 @@ export default function Home() {
 									Анализируем до 10 ваших конкурентов, чтобы понять, что у них хорошо, а что плохо,
 									как выделить вас и увести их аудиторию.
 								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div className="serv-container serv-container-index">
+				<div className="background-blurs">
+					<div className="blur-1"></div>
+					<div className="blur-2"></div>
+				</div>
+				<div className="page-top">
+					<h1 className="wow fadeInUp">Сколько это стоит?</h1>
+					<p className="wow fadeInUp" data-wow-delay="0.2s">
+						Этап воронки продаж. Разработка <b>инструмента сбора заявок</b> для вашего продукта.
+					</p>
+				</div>
+				<div className="wrapper">
+					<div className="serv-items-content">
+						<div className="serv-items serv-items-50">
+							{/*<div className="serv-item wow fadeInUp" data-wow-delay="0.2s">*/}
+							{/*	<h3>Быстрый старт</h3>*/}
+							{/*	<span>180 000 ₸</span>*/}
+							{/*	<p>Сайт на конструкторе Tilda</p>*/}
+							{/*	<ul>*/}
+							{/*		<li>UX-проектирование</li>*/}
+							{/*		<li>Копирайт</li>*/}
+							{/*		<li>UI/UX дизайн</li>*/}
+							{/*		<li>Front-end</li>*/}
+							{/*		<li>СMS (при надобности)</li>*/}
+							{/*		<li>Подбор домена и хостинга</li>*/}
+							{/*		<li>Отправка почты с формы обратной связи</li>*/}
+							{/*	</ul>*/}
+							{/*	<Link href="#form">*/}
+							{/*		Заказать*/}
+							{/*		<img src="/img/svg/serv-icon.svg" alt="" />*/}
+							{/*	</Link>*/}
+							{/*</div>*/}
+							<div className="serv-item popular wow fadeInUp" data-wow-delay="0.4s">
+								<h3>Landing Page</h3>
+								<span>от 220 000 ₸</span>
+								<p>Для подробного описания продукта, услуги либо образовательного курса</p>
+								<ul>
+									<li>5-10 инфоблоков</li>
+									<li>Средняя сложность технического выполнения</li>
+									<li>Анимации</li>
+									<li>Интерактивные элементы средней сложности (слайдшоу и галереи, карты, видеоплееры
+										)
+									</li>
+									<li>UX-проектирование</li>
+									<li>Копирайт</li>
+									<li>UI/UX дизайн</li>
+									<li>Front-end</li>
+									<li>СMS (при надобности)</li>
+									<li>Подбор домена и хостинга</li>
+								</ul>
+								<Link href="#form">
+									Заказать
+									<img src="/img/svg/serv-icon.svg" alt="" />
+								</Link>
+							</div>
+							<div className="serv-item wow fadeInUp" data-wow-delay="0.6s">
+								<h3>Корпоративный сайт</h3>
+								<span>от 700 000 ₸</span>
+								<p>Для представления бизнеса, услуг, контактов и информации.</p>
+								<ul>
+									<li>3-10 страниц</li>
+									<li>Анимации</li>
+									<li>Интерактивные элементы (слайдшоу и галереи, карты, видеоплееры )</li>
+									<li>UX-проектирование</li>
+									<li>Копирайт</li>
+									<li>UI/UX дизайн</li>
+									<li>Front-end</li>
+									<li>СMS (при надобности)</li>
+									<li>Подбор домена и хостинга</li>
+								</ul>
+								<Link href="#form">
+									Заказать
+									<img src="/img/svg/serv-icon.svg" alt="" />
+								</Link>
 							</div>
 						</div>
 					</div>

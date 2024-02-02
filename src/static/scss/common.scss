@@ -919,9 +919,18 @@
         overflow: hidden;
         position: relative;
 
+        &-index {
+            padding-bottom: 20px;
+
+            .page-top {
+                margin-top: 0;
+                padding-top: 30px;
+            }
+        }
+
         .blur-1 {
             position: absolute;
-            top: 30%;
+            top: 40%;
             left: 10%;
             z-index: -3;
             background: linear-gradient(180deg, #9a29e5, #e330bf);
