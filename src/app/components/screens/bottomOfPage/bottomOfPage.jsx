@@ -14,7 +14,7 @@ export default function BottomOfPage() {
 	const [inputValue1, setInputValue1] = useState("")
 	const [inputValue2, setInputValue2] = useState("")
 
-	const isButtonDisabled = inputValue1.length <= 4 || inputValue2.length <= 8
+	const isButtonDisabled = inputValue1.length <= 3 || inputValue2.length <= 8
 
 	const handleInputChange1 = (e) => {
 		setInputValue1(e.target.value)

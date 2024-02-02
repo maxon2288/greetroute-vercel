@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1a822201-2a81-4697-b470-166666f0ccfb" name="Changes" comment="docker update 1111444">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/screens/bottomOfPage/bottomOfPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/screens/bottomOfPage/bottomOfPage.jsx" afterDir="false" />
-    </list>
+    <list default="true" id="1a822201-2a81-4697-b470-166666f0ccfb" name="Changes" comment="добавил заблокированную кнопку" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -108,14 +105,7 @@
       <workItem from="1706207176726" duration="323000" />
       <workItem from="1706643714642" duration="3366000" />
       <workItem from="1706692965894" duration="1324000" />
-      <workItem from="1706834533984" duration="2121000" />
-    </task>
-    <task id="LOCAL-00034" summary="docker update 1111444">
-      <created>1701468174656</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1701468174656</updated>
+      <workItem from="1706834533984" duration="2441000" />
     </task>
     <task id="LOCAL-00035" summary="docker update 1111444">
       <created>1701468437162</created>
@@ -453,7 +443,14 @@
       <option name="project" value="LOCAL" />
       <updated>1706838684020</updated>
     </task>
-    <option name="localTasksCounter" value="83" />
+    <task id="LOCAL-00083" summary="добавил заблокированную кнопку">
+      <created>1706847764592</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1706847764592</updated>
+    </task>
+    <option name="localTasksCounter" value="84" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -479,7 +476,8 @@
     <MESSAGE value="docker" />
     <MESSAGE value="docker update 1111" />
     <MESSAGE value="docker update 1111444" />
-    <option name="LAST_COMMIT_MESSAGE" value="docker update 1111444" />
+    <MESSAGE value="добавил заблокированную кнопку" />
+    <option name="LAST_COMMIT_MESSAGE" value="добавил заблокированную кнопку" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
