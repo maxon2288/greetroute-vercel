@@ -333,7 +333,7 @@ export default function Home() {
 							{/*</div>*/}
 							<div className="serv-item popular wow fadeInUp" data-wow-delay="0.4s">
 								<h3>Landing Page</h3>
-								<span>от 220 000 ₸</span>
+								<span>от $200</span>
 								<p>Для подробного описания продукта, услуги либо образовательного курса</p>
 								<ul>
 									<li>5-10 инфоблоков</li>
@@ -356,7 +356,7 @@ export default function Home() {
 							</div>
 							<div className="serv-item wow fadeInUp" data-wow-delay="0.6s">
 								<h3>Корпоративный сайт</h3>
-								<span>от 700 000 ₸</span>
+								<span>от $400</span>
 								<p>Для представления бизнеса, услуг, контактов и информации.</p>
 								<ul>
 									<li>3-10 страниц</li>

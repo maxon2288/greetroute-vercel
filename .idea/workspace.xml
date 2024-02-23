@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1a822201-2a81-4697-b470-166666f0ccfb" name="Changes" comment="добавил заблокированную кнопку" />
+    <list default="true" id="1a822201-2a81-4697-b470-166666f0ccfb" name="Changes" comment="добавил заблокированную кнопку">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -106,6 +108,10 @@
       <workItem from="1706643714642" duration="3366000" />
       <workItem from="1706692965894" duration="1324000" />
       <workItem from="1706834533984" duration="2441000" />
+      <workItem from="1706973551682" duration="611000" />
+      <workItem from="1707242173050" duration="926000" />
+      <workItem from="1708344703892" duration="592000" />
+      <workItem from="1708614100841" duration="7000" />
     </task>
     <task id="LOCAL-00035" summary="docker update 1111444">
       <created>1701468437162</created>
