@@ -58,22 +58,16 @@ export default function DentaCare() {
 							{/*		<img src="/img/svg/serv-icon.svg" alt="" />*/}
 							{/*	</Link>*/}
 							{/*</div>*/}
-							<div className="serv-item popular wow fadeInUp" data-wow-delay="0.4s">
-								<h3>Landing Page</h3>
-								<span>от $200</span>
-								<p>Для подробного описания продукта, услуги либо образовательного курса</p>
+							<div className="serv-item wow fadeInUp" data-wow-delay="0.4s">
+								<h3>AI Page</h3>
+								<span>до $100</span>
+								<p>Для быстрого старта, когда срочно нужен сайт</p>
 								<ul>
-									<li>5-10 инфоблоков</li>
-									<li>Средняя сложность технического выполнения</li>
-									<li>Анимации</li>
-									<li>Интерактивные элементы средней сложности (слайдшоу и галереи, карты, видеоплееры
-										)
-									</li>
-									<li>UX-проектирование</li>
+									<li>С использованием нейросетей</li>
+									<li>Срок 1-2 дня</li>
+									<li>UI-UX Дизайн</li>
 									<li>Копирайт</li>
-									<li>UI/UX дизайн</li>
-									<li>Front-end</li>
-									<li>СMS (при надобности)</li>
+									<li>Подбор фото</li>
 									<li>Подбор домена и хостинга</li>
 								</ul>
 								<Link href="#form">
@@ -81,19 +75,35 @@ export default function DentaCare() {
 									<img src="/img/svg/serv-icon.svg" alt="" />
 								</Link>
 							</div>
-							<div className="serv-item wow fadeInUp" data-wow-delay="0.6s">
-								<h3>Корпоративный сайт</h3>
-								<span>от $400</span>
-								<p>Для представления бизнеса, услуг, контактов и информации.</p>
+							<div className="serv-item popular wow fadeInUp" data-wow-delay="0.6s">
+								<h3>Tilda</h3>
+								<span>от $200</span>
+								<p>Для подробного описания продукта либо услуги </p>
 								<ul>
-									<li>3-10 страниц</li>
-									<li>Анимации</li>
-									<li>Интерактивные элементы (слайдшоу и галереи, карты, видеоплееры )</li>
-									<li>UX-проектирование</li>
+									<li>Популярный конструктор</li>
+									<li>Маркетинговый анализ</li>
 									<li>Копирайт</li>
-									<li>UI/UX дизайн</li>
+									<li>UX-проектирование</li>
+									<li>Дизайн в Figma</li>
+									<li>Подбор домена и хостинга</li>
+								</ul>
+								<Link href="#form">
+									Заказать
+									<img src="/img/svg/serv-icon.svg" alt="" />
+								</Link>
+							</div>
+							<div className="serv-item wow fadeInUp" data-wow-delay="0.8s">
+								<h3>WordPress</h3>
+								<span>от $300</span>
+								<p>С возможностью масштабирования в будущем</p>
+								<ul>
+									<li>Маркетинговый анализ</li>
+									<li>Копирайт</li>
+									<li>UX-проектирование</li>
+									<li>Дизайн в Figma</li>
 									<li>Front-end</li>
-									<li>СMS (при надобности)</li>
+									<li>Back-end</li>
+									<li>СMS-система</li>
 									<li>Подбор домена и хостинга</li>
 								</ul>
 								<Link href="#form">
