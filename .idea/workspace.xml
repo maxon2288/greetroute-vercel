@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="1a822201-2a81-4697-b470-166666f0ccfb" name="Changes" comment="добавил заблокированную кнопку">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/services/web/page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/services/web/page.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/scss/common.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/static/scss/common.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,20 +116,7 @@
       <workItem from="1708614100841" duration="7000" />
       <workItem from="1708705128152" duration="726000" />
       <workItem from="1709140643380" duration="4700000" />
-    </task>
-    <task id="LOCAL-00037" summary="docker update 1111444">
-      <created>1701526632216</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1701526632216</updated>
-    </task>
-    <task id="LOCAL-00038" summary="docker update 1111444">
-      <created>1701526907954</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1701526907954</updated>
+      <workItem from="1709223751725" duration="1069000" />
     </task>
     <task id="LOCAL-00039" summary="docker update 1111444">
       <created>1701531662869</created>
@@ -458,7 +447,21 @@
       <option name="project" value="LOCAL" />
       <updated>1709144188068</updated>
     </task>
-    <option name="localTasksCounter" value="86" />
+    <task id="LOCAL-00086" summary="добавил заблокированную кнопку">
+      <created>1709223768728</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1709223768729</updated>
+    </task>
+    <task id="LOCAL-00087" summary="добавил заблокированную кнопку">
+      <created>1709223794527</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1709223794527</updated>
+    </task>
+    <option name="localTasksCounter" value="88" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
