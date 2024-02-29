@@ -77,7 +77,7 @@ export default function DentaCare() {
 							</div>
 							<div className="serv-item popular wow fadeInUp" data-wow-delay="0.6s">
 								<h3>Tilda</h3>
-								<span>от $200</span>
+								<span>от $250</span>
 								<p>Для подробного описания продукта либо услуги </p>
 								<ul>
 									<li>Популярный конструктор</li>
