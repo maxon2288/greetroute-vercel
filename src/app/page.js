@@ -333,7 +333,10 @@ export default function Home() {
 							{/*</div>*/}
 							<div className="serv-item wow fadeInUp" data-wow-delay="0.4s">
 								<h3>AI Page</h3>
-								<span>до $100</span>
+								<div>
+									<span>до $99</span>
+									<b>от $199</b>
+								</div>
 								<p>Для быстрого старта, когда срочно нужен сайт</p>
 								<ul>
 									<li>С использованием нейросетей</li>
@@ -350,7 +353,10 @@ export default function Home() {
 							</div>
 							<div className="serv-item popular wow fadeInUp" data-wow-delay="0.6s">
 								<h3>Tilda</h3>
-								<span>от $250</span>
+								<div>
+									<span>от $249</span>
+									<b>от $399</b>
+								</div>
 								<p>Для подробного описания продукта либо услуги </p>
 								<ul>
 									<li>Популярный конструктор</li>
@@ -367,7 +373,10 @@ export default function Home() {
 							</div>
 							<div className="serv-item wow fadeInUp" data-wow-delay="0.8s">
 								<h3>WordPress</h3>
-								<span>от $300</span>
+								<div>
+									<span>от $299</span>
+									<b>от $449</b>
+								</div>
 								<p>С возможностью масштабирования в будущем</p>
 								<ul>
 									<li>Маркетинговый анализ</li>
