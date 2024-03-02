@@ -132,7 +132,17 @@ export default function BottomOfPage() {
 										<input type="text" name="message" />
 									</div>
 									<div className="form-item wow fadeInUp" data-wow-delay="0.6s">
-										<button disabled={isButtonDisabled}>Получить консультацию</button>
+										{
+											isButtonDisabled ?
+												<div className="form-fake-button">
+													Получить
+													консультацию
+												</div>
+												:
+												<button disabled={isButtonDisabled}>Получить
+													консультацию
+												</button>
+										}
 									</div>
 									<p className="wow fadeInUp" data-wow-delay="0.7s">
 										Отправляя сообщение в мессенджеры и отправляя эту форму, я подтверждаю, что

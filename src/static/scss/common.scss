@@ -2055,6 +2055,13 @@
             @include button-primary;
             width: 100%;
         }
+
+        .form-fake-button {
+            @include button-primary;
+            width: 100%;
+            pointer-events: none;
+            opacity: 0.7;
+        }
     }
 }
 
