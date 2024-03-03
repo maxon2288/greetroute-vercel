@@ -154,6 +154,19 @@ export default function Home() {
 						</p>
 					</div>
 					<div className="services-items">
+						<Link href="/services/web" className="services-item services-item-50 wow fadeInUp"
+							  data-wow-delay="0.6s">
+							<h3>
+								<img src="/img/svg/header-serv-1.svg" alt="" />
+								Разработка сайта
+							</h3>
+							<p>Проектирование, дизайн-система, верстка, настройка базы данных и подключение к CMS
+								системе</p>
+							<div>
+								Подробнее
+								<img src="/img/svg/button-arrow.svg" alt="" />
+							</div>
+						</Link>
 						<Link href="/services/branding" className="services-item services-item-50 wow fadeInUp"
 							  data-wow-delay="0.2s">
 							<h3>
@@ -179,14 +192,14 @@ export default function Home() {
 						{/*		<img src="/img/svg/button-arrow.svg" alt="" />*/}
 						{/*	</div>*/}
 						{/*</Link>*/}
-						<Link href="/services/web" className="services-item services-item-50 wow fadeInUp"
-							  data-wow-delay="0.6s">
+						<Link href="/services/context" className="services-item services-item-50 wow fadeInUp"
+							  data-wow-delay="1s">
 							<h3>
-								<img src="/img/svg/header-serv-1.svg" alt="" />
-								Разработка сайта
+								<img src="/img/svg/header-serv-5.svg" alt="" />
+								Контекстная реклама
 							</h3>
-							<p>Проектирование, дизайн-система, верстка, настройка базы данных и подключение к CMS
-								системе</p>
+							<p>Включает выбор ключевых слов и тематики, создание рекламных объявлений, установку бюджета
+								и настройку показов в рекламных сетях или поисковых системах.</p>
 							<div>
 								Подробнее
 								<img src="/img/svg/button-arrow.svg" alt="" />
@@ -205,19 +218,7 @@ export default function Home() {
 								<img src="/img/svg/button-arrow.svg" alt="" />
 							</div>
 						</Link>
-						<Link href="/services/context" className="services-item services-item-50 wow fadeInUp"
-							  data-wow-delay="1s">
-							<h3>
-								<img src="/img/svg/header-serv-5.svg" alt="" />
-								Контекстная реклама
-							</h3>
-							<p>Включает выбор ключевых слов и тематики, создание рекламных объявлений, установку бюджета
-								и настройку показов в рекламных сетях или поисковых системах.</p>
-							<div>
-								Подробнее
-								<img src="/img/svg/button-arrow.svg" alt="" />
-							</div>
-						</Link>
+
 					</div>
 				</div>
 			</div>
