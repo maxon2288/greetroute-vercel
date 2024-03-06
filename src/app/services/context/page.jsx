@@ -44,7 +44,7 @@ export default function DentaCare() {
 						<div className="serv-items serv-items-50">
 							<div className="serv-item wow fadeInUp" data-wow-delay="0.2s">
 								<h3>Яндекс Директ</h3>
-								<span>от 100 000 ₸</span>
+								<span>от $200</span>
 								<ul>
 									<li>Исследование целевой аудитории и ключевых слов.</li>
 									<li>Создание рекламных кампаний и групп.</li>
@@ -58,7 +58,7 @@ export default function DentaCare() {
 							</div>
 							<div className="serv-item popular wow fadeInUp" data-wow-delay="0.4s">
 								<h3>Комплексная реклама</h3>
-								<span>от 220 000 ₸</span>
+								<span>от $440</span>
 								<ul>
 									<li>Анализ аудитории и ключевых слов.</li>
 									<li>Создание рекламных кампаний и объявлений в Google Ads и Яндекс.Директ.</li>
@@ -76,7 +76,7 @@ export default function DentaCare() {
 							</div>
 							<div className="serv-item wow fadeInUp" data-wow-delay="0.6s">
 								<h3>Google Ads</h3>
-								<span>от 120 000 ₸</span>
+								<span>от $240</span>
 								<ul>
 									<li>Исследование целевой аудитории и ключевых слов.</li>
 									<li>Создание рекламных кампаний и групп.</li>

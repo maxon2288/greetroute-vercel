@@ -43,7 +43,7 @@ export default function DentaCare() {
 						<div className="serv-items">
 							<div className="serv-item wow fadeInUp" data-wow-delay="0.2s">
 								<h3>Логотип</h3>
-								<span>30 000 ₸</span>
+								<span>$60</span>
 								<ul>
 									<li>Разработка логотипа по вашему запросу</li>
 									<li>Подбор цветовой палитры</li>
@@ -55,7 +55,7 @@ export default function DentaCare() {
 							</div>
 							<div className="serv-item popular wow fadeInUp" data-wow-delay="0.4s">
 								<h3>Фирменный стиль</h3>
-								<span>80 000 ₸</span>
+								<span>$160</span>
 								<ul>
 									<li>Анализ логотипов конкурентов</li>
 									<li>Исследование аудитории</li>
@@ -70,7 +70,7 @@ export default function DentaCare() {
 							</div>
 							<div className="serv-item wow fadeInUp" data-wow-delay="0.6s">
 								<h3>Айдентика</h3>
-								<span>от 200 000 ₸</span>
+								<span>от $400</span>
 								<ul>
 									<li>Анализ логотипов конкурентов</li>
 									<li>Нейминг</li>

@@ -46,7 +46,7 @@ export default function DentaCare() {
 						<div className="serv-items serv-items-50">
 							<div className="serv-item popular wow fadeInUp" data-wow-delay="0.2s">
 								<h3>Лендинг</h3>
-								<span>от 200 000 ₸</span>
+								<span>от $400</span>
 								<p>
 									SEO для Landing Page — оптимизация контента, ключевых слов, технических аспектов для
 									улучшения видимости, трафика и конверсии. Стратегия привлечения клиентов для
@@ -59,7 +59,7 @@ export default function DentaCare() {
 							</div>
 							<div className="serv-item wow fadeInUp" data-wow-delay="0.4s">
 								<h3>Корпоративный</h3>
-								<span>от 300 000 ₸</span>
+								<span>от $600</span>
 								<p>
 									SEO для корпоративных сайтов - стратегический подход к улучшению видимости и охвата
 									аудитории через оптимизацию контента, ключевых слов и технические улучшения для
