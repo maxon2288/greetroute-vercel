@@ -121,8 +121,7 @@ export default function BottomOfPage() {
 											   onChange={handleInputChange1} required />
 									</div>
 									<div className="form-item required wow fadeInUp" data-wow-delay="0.4s">
-										<div className="form-title">Ссылка на соц сеть, телефон мессенджера либо
-											E-mail
+										<div className="form-title">Телефон/ссылка вашего мессенджера
 										</div>
 										<input minLength={5} type="text" value={inputValue2}
 											   onChange={handleInputChange2} name="contact" required />
