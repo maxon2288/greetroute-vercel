@@ -3,8 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="1a822201-2a81-4697-b470-166666f0ccfb" name="Changes" comment="добавил заблокированную кнопку">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/screens/bottomOfPage/bottomOfPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/screens/bottomOfPage/bottomOfPage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/ui/header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/ui/header.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/services/web/page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/services/web/page.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/scss/common.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/static/scss/common.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,21 +124,9 @@
       <workItem from="1709551987018" duration="1534000" />
       <workItem from="1709656415097" duration="598000" />
       <workItem from="1709726467437" duration="1409000" />
-      <workItem from="1710265662157" duration="2345000" />
-    </task>
-    <task id="LOCAL-00043" summary="docker update 1111444">
-      <created>1701714579208</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1701714579208</updated>
-    </task>
-    <task id="LOCAL-00044" summary="docker update 1111444">
-      <created>1701714900591</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1701714900591</updated>
+      <workItem from="1710265662157" duration="3583000" />
+      <workItem from="1710865585422" duration="252000" />
+      <workItem from="1712572448904" duration="1363000" />
     </task>
     <task id="LOCAL-00045" summary="docker update 1111444">
       <created>1701716104476</created>
@@ -467,7 +457,21 @@
       <option name="project" value="LOCAL" />
       <updated>1709732123495</updated>
     </task>
-    <option name="localTasksCounter" value="92" />
+    <task id="LOCAL-00092" summary="добавил заблокированную кнопку">
+      <created>1710271821403</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1710271821403</updated>
+    </task>
+    <task id="LOCAL-00093" summary="добавил заблокированную кнопку">
+      <created>1710272448950</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1710272448950</updated>
+    </task>
+    <option name="localTasksCounter" value="94" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -506,7 +510,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/app/components/screens/bottomOfPage/bottomOfPage.jsx</url>
-          <line>96</line>
+          <line>97</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>

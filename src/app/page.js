@@ -79,7 +79,7 @@ export default function Home() {
 							<div className="wow fadeInUp" data-wow-delay="0.4s">
 								<Link href="#form">
 									<Image width="27" height="28" src="/img/svg/get-start.svg" alt="" />
-									Начать сотрудничать
+									Рассчитать стоимость
 								</Link>
 								<Link href="#services">
 									<div>
@@ -138,91 +138,92 @@ export default function Home() {
 			</div>
 			<div className="services" id="services">
 				<div className="wrapper">
-					<div className="background-blurs">
-						<div className="blur-1"></div>
-					</div>
+
 					<div className="number">
 						<div className="number-top wow fadeInDown">1</div>
 						<div className="number-title wow fadeIn" data-wow-delay="0.7s">
 							Кто мы?
 						</div>
 					</div>
-					<div className="services-top">
-						<h2 className="wow fadeInUp">Что мы предлагаем?</h2>
-						<p className="wow fadeInUp" data-wow-delay="0.2s">
-							Качественные решения, которые <span>окупают</span> затраты своей эффективностью
-						</p>
-					</div>
-					<div className="services-items">
-						<Link href="/services/web" className="services-item services-item-50 wow fadeInUp"
-							  data-wow-delay="0.6s">
-							<h3>
-								<img src="/img/svg/header-serv-1.svg" alt="" />
-								Разработка сайта
-							</h3>
-							<p>Проектирование, дизайн-система, верстка, настройка базы данных и подключение к CMS
-								системе</p>
-							<div>
-								Подробнее
-								<img src="/img/svg/button-arrow.svg" alt="" />
-							</div>
-						</Link>
-						<Link href="/services/branding" className="services-item services-item-50 wow fadeInUp"
-							  data-wow-delay="0.2s">
-							<h3>
-								<img src="/img/svg/header-serv-2.svg" alt="" />
-								Брендинг
-							</h3>
-							<p>Разработка логотипа, фирменного стиля и подбор цветовой гаммы для идентичности вашего
-								бренда на рынке.</p>
-							<div>
-								Подробнее
-								<img src="/img/svg/button-arrow.svg" alt="" />
-							</div>
-						</Link>
-						{/*<Link href="/services/uiux-design" className="services-item wow fadeInUp" data-wow-delay="0.4s">*/}
-						{/*	<h3>*/}
-						{/*		<img src="/img/svg/header-serv-3.svg" alt="" />*/}
-						{/*		UI/UX Дизайн*/}
-						{/*	</h3>*/}
-						{/*	<p>Проектирование, разработка концепции, цветовая палитра, шрифты и стили. Макет каждой*/}
-						{/*		страницы.</p>*/}
-						{/*	<div>*/}
-						{/*		Подробнее*/}
-						{/*		<img src="/img/svg/button-arrow.svg" alt="" />*/}
-						{/*	</div>*/}
-						{/*</Link>*/}
-						<Link href="/services/context" className="services-item services-item-50 wow fadeInUp"
-							  data-wow-delay="1s">
-							<h3>
-								<img src="/img/svg/header-serv-5.svg" alt="" />
-								Контекстная реклама
-							</h3>
-							<p>Включает выбор ключевых слов и тематики, создание рекламных объявлений, установку бюджета
-								и настройку показов в рекламных сетях или поисковых системах.</p>
-							<div>
-								Подробнее
-								<img src="/img/svg/button-arrow.svg" alt="" />
-							</div>
-						</Link>
-						<Link href="/services/seo" className="services-item services-item-50 wow fadeInUp"
-							  data-wow-delay="0.8s">
-							<h3>
-								<img src="/img/svg/header-serv-4.svg" alt="" />
-								SEO-продвижение
-							</h3>
-							<p>Оптимизация сайта для поднятия позиций сайта в результатах выдачи поисковых систем по
-								определённым запросам пользователей в Google и Яндекс</p>
-							<div>
-								Подробнее
-								<img src="/img/svg/button-arrow.svg" alt="" />
-							</div>
-						</Link>
+					{/*<div className="services-top">*/}
+					{/*	<h2 className="wow fadeInUp">Что мы предлагаем?</h2>*/}
+					{/*	<p className="wow fadeInUp" data-wow-delay="0.2s">*/}
+					{/*		Качественные решения, которые <span>окупают</span> затраты своей эффективностью*/}
+					{/*	</p>*/}
+					{/*</div>*/}
+					{/*<div className="services-items">*/}
+					{/*	<Link href="/services/web" className="services-item services-item-50 wow fadeInUp"*/}
+					{/*		  data-wow-delay="0.6s">*/}
+					{/*		<h3>*/}
+					{/*			<img src="/img/svg/header-serv-1.svg" alt="" />*/}
+					{/*			Разработка сайта*/}
+					{/*		</h3>*/}
+					{/*		<p>Проектирование, дизайн-система, верстка, настройка базы данных и подключение к CMS*/}
+					{/*			системе</p>*/}
+					{/*		<div>*/}
+					{/*			Подробнее*/}
+					{/*			<img src="/img/svg/button-arrow.svg" alt="" />*/}
+					{/*		</div>*/}
+					{/*	</Link>*/}
+					{/*	<Link href="/services/branding" className="services-item services-item-50 wow fadeInUp"*/}
+					{/*		  data-wow-delay="0.2s">*/}
+					{/*		<h3>*/}
+					{/*			<img src="/img/svg/header-serv-2.svg" alt="" />*/}
+					{/*			Брендинг*/}
+					{/*		</h3>*/}
+					{/*		<p>Разработка логотипа, фирменного стиля и подбор цветовой гаммы для идентичности вашего*/}
+					{/*			бренда на рынке.</p>*/}
+					{/*		<div>*/}
+					{/*			Подробнее*/}
+					{/*			<img src="/img/svg/button-arrow.svg" alt="" />*/}
+					{/*		</div>*/}
+					{/*	</Link>*/}
+					{/*	/!*<Link href="/services/uiux-design" className="services-item wow fadeInUp" data-wow-delay="0.4s">*!/*/}
+					{/*	/!*	<h3>*!/*/}
+					{/*	/!*		<img src="/img/svg/header-serv-3.svg" alt="" />*!/*/}
+					{/*	/!*		UI/UX Дизайн*!/*/}
+					{/*	/!*	</h3>*!/*/}
+					{/*	/!*	<p>Проектирование, разработка концепции, цветовая палитра, шрифты и стили. Макет каждой*!/*/}
+					{/*	/!*		страницы.</p>*!/*/}
+					{/*	/!*	<div>*!/*/}
+					{/*	/!*		Подробнее*!/*/}
+					{/*	/!*		<img src="/img/svg/button-arrow.svg" alt="" />*!/*/}
+					{/*	/!*	</div>*!/*/}
+					{/*	/!*</Link>*!/*/}
+					{/*	<Link href="/services/context" className="services-item services-item-50 wow fadeInUp"*/}
+					{/*		  data-wow-delay="1s">*/}
+					{/*		<h3>*/}
+					{/*			<img src="/img/svg/header-serv-5.svg" alt="" />*/}
+					{/*			Контекстная реклама*/}
+					{/*		</h3>*/}
+					{/*		<p>Включает выбор ключевых слов и тематики, создание рекламных объявлений, установку бюджета*/}
+					{/*			и настройку показов в рекламных сетях или поисковых системах.</p>*/}
+					{/*		<div>*/}
+					{/*			Подробнее*/}
+					{/*			<img src="/img/svg/button-arrow.svg" alt="" />*/}
+					{/*		</div>*/}
+					{/*	</Link>*/}
+					{/*	<Link href="/services/seo" className="services-item services-item-50 wow fadeInUp"*/}
+					{/*		  data-wow-delay="0.8s">*/}
+					{/*		<h3>*/}
+					{/*			<img src="/img/svg/header-serv-4.svg" alt="" />*/}
+					{/*			SEO-продвижение*/}
+					{/*		</h3>*/}
+					{/*		<p>Оптимизация сайта для поднятия позиций сайта в результатах выдачи поисковых систем по*/}
+					{/*			определённым запросам пользователей в Google и Яндекс</p>*/}
+					{/*		<div>*/}
+					{/*			Подробнее*/}
+					{/*			<img src="/img/svg/button-arrow.svg" alt="" />*/}
+					{/*		</div>*/}
+					{/*	</Link>*/}
 
-					</div>
+					{/*</div>*/}
 				</div>
 			</div>
 			<div className="need">
+				<div className="background-blurs">
+					<div className="blur-1"></div>
+				</div>
 				<div className="wrapper">
 					<div className="need-contanier">
 						<h2 className="wow fadeInUp">
@@ -300,104 +301,6 @@ export default function Home() {
 					</div>
 				</div>
 			</div>
-			<div className="serv-container serv-container-index">
-				<div className="background-blurs">
-					<div className="blur-1"></div>
-					<div className="blur-2"></div>
-				</div>
-				<div className="page-top">
-					<h1 className="wow fadeInUp">Сколько это стоит?</h1>
-					<p className="wow fadeInUp" data-wow-delay="0.2s">
-						Этап воронки продаж. Разработка <b>инструмента сбора заявок</b> для вашего продукта.
-					</p>
-				</div>
-				<div className="wrapper">
-					<div className="serv-items-content">
-						<div className="serv-items serv-items-50">
-							{/*<div className="serv-item wow fadeInUp" data-wow-delay="0.2s">*/}
-							{/*	<h3>Быстрый старт</h3>*/}
-							{/*	<span>180 000 ₸</span>*/}
-							{/*	<p>Сайт на конструкторе Tilda</p>*/}
-							{/*	<ul>*/}
-							{/*		<li>UX-проектирование</li>*/}
-							{/*		<li>Копирайт</li>*/}
-							{/*		<li>UI/UX дизайн</li>*/}
-							{/*		<li>Front-end</li>*/}
-							{/*		<li>СMS (при надобности)</li>*/}
-							{/*		<li>Подбор домена и хостинга</li>*/}
-							{/*		<li>Отправка почты с формы обратной связи</li>*/}
-							{/*	</ul>*/}
-							{/*	<Link href="#form">*/}
-							{/*		Заказать*/}
-							{/*		<img src="/img/svg/serv-icon.svg" alt="" />*/}
-							{/*	</Link>*/}
-							{/*</div>*/}
-							<div className="serv-item wow fadeInUp" data-wow-delay="0.4s">
-								<h3>AI Page</h3>
-								<div>
-									<span>до $90</span>
-									<b>от $190</b>
-								</div>
-								<p>Для быстрого старта, когда срочно нужен сайт</p>
-								<ul>
-									<li>С использованием нейросетей</li>
-									<li>Срок 1-2 дня</li>
-									<li>UI-UX Дизайн</li>
-									<li>Копирайт</li>
-									<li>Подбор фото</li>
-									<li>Подбор домена и хостинга</li>
-								</ul>
-								<Link href="#form">
-									Заказать
-									<img src="/img/svg/serv-icon.svg" alt="" />
-								</Link>
-							</div>
-							<div className="serv-item popular wow fadeInUp" data-wow-delay="0.6s">
-								<h3>Tilda</h3>
-								<div>
-									<span>от $240</span>
-									<b>от $390</b>
-								</div>
-								<p>Для подробного описания продукта либо услуги </p>
-								<ul>
-									<li>Популярный конструктор</li>
-									<li>Маркетинговый анализ</li>
-									<li>Копирайт</li>
-									<li>UX-проектирование</li>
-									<li>Дизайн в Figma</li>
-									<li>Подбор домена и хостинга</li>
-								</ul>
-								<Link href="#form">
-									Заказать
-									<img src="/img/svg/serv-icon.svg" alt="" />
-								</Link>
-							</div>
-							<div className="serv-item wow fadeInUp" data-wow-delay="0.8s">
-								<h3>WordPress</h3>
-								<div>
-									<span>от $290</span>
-									<b>от $440</b>
-								</div>
-								<p>С возможностью масштабирования в будущем</p>
-								<ul>
-									<li>Маркетинговый анализ</li>
-									<li>Копирайт</li>
-									<li>UX-проектирование</li>
-									<li>Дизайн в Figma</li>
-									<li>Front-end</li>
-									<li>Back-end</li>
-									<li>СMS-система</li>
-									<li>Подбор домена и хостинга</li>
-								</ul>
-								<Link href="#form">
-									Заказать
-									<img src="/img/svg/serv-icon.svg" alt="" />
-								</Link>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
 			<div className="reason">
 				<div className="background-blurs">
 					<div className="blur-1"></div>
@@ -442,13 +345,22 @@ export default function Home() {
 							</div>
 							<div className="result-item wow fadeInUp" data-wow-delay="0.2s">
 								<div className="result-title">
-									Выше лояльность
+									Сколько это стоит?
 								</div>
 								<div className="result-desc">
-									За счет правильного расположения и подачи нужной информации в нужную секунду при
-									чтении сайта.
+									Разработка одностраничного сайта начинается от <b>30 т.р.</b> Многостраничные от <b>40
+									т.р</b>
 								</div>
 							</div>
+							{/*<div className="result-item wow fadeInUp" data-wow-delay="0.2s">*/}
+							{/*	<div className="result-title">*/}
+							{/*		Выше лояльность*/}
+							{/*	</div>*/}
+							{/*	<div className="result-desc">*/}
+							{/*		За счет правильного расположения и подачи нужной информации в нужную секунду при*/}
+							{/*		чтении сайта.*/}
+							{/*	</div>*/}
+							{/*</div>*/}
 
 
 						</div>

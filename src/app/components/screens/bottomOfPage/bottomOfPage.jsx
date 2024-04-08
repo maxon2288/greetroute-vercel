@@ -89,7 +89,8 @@ export default function BottomOfPage() {
 						<div className="form-top">
 							<h2 className="wow fadeInUp">Остались вопросы?</h2>
 							<p className="wow fadeInUp" data-wow-delay="0.2s">
-								Заполните форму и наш специалист свяжется с вами <span>в ближайшее время</span>
+								Заполните форму и мы свяжемся с вами <br /><span>в течении 10 минут</span> в
+								рабочее время
 							</p>
 						</div>
 						<div className="form-content">
@@ -134,12 +135,10 @@ export default function BottomOfPage() {
 										{
 											isButtonDisabled ?
 												<div className="form-fake-button">
-													Получить
-													консультацию
+													Хочу аудит и расчёт
 												</div>
 												:
-												<button disabled={isButtonDisabled}>Получить
-													консультацию
+												<button disabled={isButtonDisabled}>Узнать цену
 												</button>
 										}
 									</div>

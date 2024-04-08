@@ -99,7 +99,7 @@ export default function Header() {
 							</ul>
 						</div>
 						<Link href="#form" className="header-call">
-							Связаться
+							Расчёт стоимости
 						</Link>
 						<div className="header-open" onClick={() => setMenuState(!menuActive)}>
 							<img src="/img/svg/header-menu-open.svg" alt="" />
@@ -117,7 +117,7 @@ export default function Header() {
 					</div>
 				</div>
 				<Link href="#form" onClick={() => setMenuState(!menuActive)}>
-					Связаться
+					Рассчитать стоимость
 				</Link>
 				<div className="soc">
 					<Link href="https://wa.me/+77776740559" target="_blank"

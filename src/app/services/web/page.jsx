@@ -27,105 +27,106 @@ export default function DentaCare() {
 			<title>Разработка сайтов | GreetRoute</title>
 			<Header />
 			<div className="serv-container">
-				<div className="background-blurs">
-					<div className="blur-1"></div>
-					<div className="blur-2"></div>
-				</div>
+
 				<div className="page-top">
 					<h1 className="wow fadeInUp">Разработка сайта</h1>
 					<p className="wow fadeInUp" data-wow-delay="0.2s">
 						Этап воронки продаж. Разработка инструмента сбора заявок для вашего продукта.
 					</p>
 				</div>
-				<div className="wrapper">
-					<div className="serv-items-content">
-						<div className="serv-items serv-items-50">
-							{/*<div className="serv-item wow fadeInUp" data-wow-delay="0.2s">*/}
-							{/*	<h3>Быстрый старт</h3>*/}
-							{/*	<span>180 000 ₸</span>*/}
-							{/*	<p>Сайт на конструкторе Tilda</p>*/}
-							{/*	<ul>*/}
-							{/*		<li>UX-проектирование</li>*/}
-							{/*		<li>Копирайт</li>*/}
-							{/*		<li>UI/UX дизайн</li>*/}
-							{/*		<li>Front-end</li>*/}
-							{/*		<li>СMS (при надобности)</li>*/}
-							{/*		<li>Подбор домена и хостинга</li>*/}
-							{/*		<li>Отправка почты с формы обратной связи</li>*/}
-							{/*	</ul>*/}
-							{/*	<Link href="#form">*/}
-							{/*		Заказать*/}
-							{/*		<img src="/img/svg/serv-icon.svg" alt="" />*/}
-							{/*	</Link>*/}
-							{/*</div>*/}
-							<div className="serv-item wow fadeInUp" data-wow-delay="0.4s">
-								<h3>AI Page</h3>
-								<div>
-									<span>до $90</span>
-									<b>от $190</b>
-								</div>
-								<p>Для быстрого старта, когда срочно нужен сайт</p>
-								<ul>
-									<li>С использованием нейросетей</li>
-									<li>Срок 1-2 дня</li>
-									<li>UI-UX Дизайн</li>
-									<li>Копирайт</li>
-									<li>Подбор фото</li>
-									<li>Подбор домена и хостинга</li>
-								</ul>
-								<Link href="#form">
-									Заказать
-									<img src="/img/svg/serv-icon.svg" alt="" />
-								</Link>
-							</div>
-							<div className="serv-item popular wow fadeInUp" data-wow-delay="0.6s">
-								<h3>Tilda</h3>
-								<div>
-									<span>от $240</span>
-									<b>от $390</b>
-								</div>
-								<p>Для подробного описания продукта либо услуги </p>
-								<ul>
-									<li>Популярный конструктор</li>
-									<li>Маркетинговый анализ</li>
-									<li>Копирайт</li>
-									<li>UX-проектирование</li>
-									<li>Дизайн в Figma</li>
-									<li>Подбор домена и хостинга</li>
-								</ul>
-								<Link href="#form">
-									Заказать
-									<img src="/img/svg/serv-icon.svg" alt="" />
-								</Link>
-							</div>
-							<div className="serv-item wow fadeInUp" data-wow-delay="0.8s">
-								<h3>WordPress</h3>
-								<div>
-									<span>от $290</span>
-									<b>от $440</b>
-								</div>
-								<p>С возможностью масштабирования в будущем</p>
-								<ul>
-									<li>Маркетинговый анализ</li>
-									<li>Копирайт</li>
-									<li>UX-проектирование</li>
-									<li>Дизайн в Figma</li>
-									<li>Front-end</li>
-									<li>Back-end</li>
-									<li>СMS-система</li>
-									<li>Подбор домена и хостинга</li>
-								</ul>
-								<Link href="#form">
-									Заказать
-									<img src="/img/svg/serv-icon.svg" alt="" />
-								</Link>
-							</div>
-						</div>
-					</div>
-				</div>
+				{/*<div className="wrapper">*/}
+				{/*	<div className="serv-items-content">*/}
+				{/*		<div className="serv-items serv-items-50">*/}
+				{/*			/!*<div className="serv-item wow fadeInUp" data-wow-delay="0.2s">*!/*/}
+				{/*			/!*	<h3>Быстрый старт</h3>*!/*/}
+				{/*			/!*	<span>180 000 ₸</span>*!/*/}
+				{/*			/!*	<p>Сайт на конструкторе Tilda</p>*!/*/}
+				{/*			/!*	<ul>*!/*/}
+				{/*			/!*		<li>UX-проектирование</li>*!/*/}
+				{/*			/!*		<li>Копирайт</li>*!/*/}
+				{/*			/!*		<li>UI/UX дизайн</li>*!/*/}
+				{/*			/!*		<li>Front-end</li>*!/*/}
+				{/*			/!*		<li>СMS (при надобности)</li>*!/*/}
+				{/*			/!*		<li>Подбор домена и хостинга</li>*!/*/}
+				{/*			/!*		<li>Отправка почты с формы обратной связи</li>*!/*/}
+				{/*			/!*	</ul>*!/*/}
+				{/*			/!*	<Link href="#form">*!/*/}
+				{/*			/!*		Заказать*!/*/}
+				{/*			/!*		<img src="/img/svg/serv-icon.svg" alt="" />*!/*/}
+				{/*			/!*	</Link>*!/*/}
+				{/*			/!*</div>*!/*/}
+				{/*			<div className="serv-item wow fadeInUp" data-wow-delay="0.4s">*/}
+				{/*				<h3>AI Page</h3>*/}
+				{/*				<div>*/}
+				{/*					<span>до $90</span>*/}
+				{/*					<b>от $190</b>*/}
+				{/*				</div>*/}
+				{/*				<p>Для быстрого старта, когда срочно нужен сайт</p>*/}
+				{/*				<ul>*/}
+				{/*					<li>С использованием нейросетей</li>*/}
+				{/*					<li>Срок 1-2 дня</li>*/}
+				{/*					<li>UI-UX Дизайн</li>*/}
+				{/*					<li>Копирайт</li>*/}
+				{/*					<li>Подбор фото</li>*/}
+				{/*					<li>Подбор домена и хостинга</li>*/}
+				{/*				</ul>*/}
+				{/*				<Link href="#form">*/}
+				{/*					Заказать*/}
+				{/*					<img src="/img/svg/serv-icon.svg" alt="" />*/}
+				{/*				</Link>*/}
+				{/*			</div>*/}
+				{/*			<div className="serv-item popular wow fadeInUp" data-wow-delay="0.6s">*/}
+				{/*				<h3>Tilda</h3>*/}
+				{/*				<div>*/}
+				{/*					<span>от $240</span>*/}
+				{/*					<b>от $390</b>*/}
+				{/*				</div>*/}
+				{/*				<p>Для подробного описания продукта либо услуги </p>*/}
+				{/*				<ul>*/}
+				{/*					<li>Популярный конструктор</li>*/}
+				{/*					<li>Маркетинговый анализ</li>*/}
+				{/*					<li>Копирайт</li>*/}
+				{/*					<li>UX-проектирование</li>*/}
+				{/*					<li>Дизайн в Figma</li>*/}
+				{/*					<li>Подбор домена и хостинга</li>*/}
+				{/*				</ul>*/}
+				{/*				<Link href="#form">*/}
+				{/*					Заказать*/}
+				{/*					<img src="/img/svg/serv-icon.svg" alt="" />*/}
+				{/*				</Link>*/}
+				{/*			</div>*/}
+				{/*			<div className="serv-item wow fadeInUp" data-wow-delay="0.8s">*/}
+				{/*				<h3>WordPress</h3>*/}
+				{/*				<div>*/}
+				{/*					<span>от $290</span>*/}
+				{/*					<b>от $440</b>*/}
+				{/*				</div>*/}
+				{/*				<p>С возможностью масштабирования в будущем</p>*/}
+				{/*				<ul>*/}
+				{/*					<li>Маркетинговый анализ</li>*/}
+				{/*					<li>Копирайт</li>*/}
+				{/*					<li>UX-проектирование</li>*/}
+				{/*					<li>Дизайн в Figma</li>*/}
+				{/*					<li>Front-end</li>*/}
+				{/*					<li>Back-end</li>*/}
+				{/*					<li>СMS-система</li>*/}
+				{/*					<li>Подбор домена и хостинга</li>*/}
+				{/*				</ul>*/}
+				{/*				<Link href="#form">*/}
+				{/*					Заказать*/}
+				{/*					<img src="/img/svg/serv-icon.svg" alt="" />*/}
+				{/*				</Link>*/}
+				{/*			</div>*/}
+				{/*		</div>*/}
+				{/*	</div>*/}
+				{/*</div>*/}
 			</div>
 
 			<div className="case-step serv-step">
+				<div className="background-blurs">
+					<div className="blur-1"></div>
+					<div className="blur-2"></div>
+				</div>
 				<div className="wrapper">
 					<div className="case-step-top wow fadeInUp">
 						<h2>Этапы разработки</h2>
